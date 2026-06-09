@@ -1,0 +1,752 @@
+---
+title: "Bioinformática"
+subtitle: "Aula 1 · Ambiente Computacional & Git/GitHub"
+author: "Dr. Yan Torres"
+institute: "PPGSIS · Universidade Federal do Ceará"
+date: "15 de junho de 2026"
+format:
+  revealjs:
+    theme: serif
+    slide-number: true
+    progress: true
+    transition: slide
+    footer: "CHS0007 · Bioinformática · UFC/PPGSIS 2026.1"
+    controls: true
+    chalkboard: true
+    background-transition: fade
+    width: 1280
+    height: 720
+    margin: 0.10
+    css: aula01_styles_v2.css
+execute:
+  echo: true
+  eval: false
+---
+
+## Apresentação
+
+**Dr. Yan Torres** · PPGSIS · Universidade Federal do Ceará · yanttp@ufc.br
+
+---
+
+**Sobre vocês — 30 segundos cada:**
+
+Nome · Programa · Linha de pesquisa · Já usou terminal?
+
+::: notes
+Bom dia a todos. Bem-vindos à disciplina de Bioinformática do PPGSIS. Vou me apresentar brevemente e depois fazemos uma rodada rápida. Quero saber especialmente quem já teve contato com linha de comando.
+:::
+
+---
+
+## Sobre esta disciplina
+
+> Sequenciadores modernos geram gigabytes de dados por corrida.  
+> Transformar esses dados em conhecimento biológico exige ferramentas computacionais.
+
+::: {.fragment}
+**Objetivo:** dar autonomia para conduzir análises genômicas de ponta a ponta.
+
+| | |
+|---|---|
+| Carga horária | 40h (20h teórica + 20h prática) |
+| Créditos | 4 · Optativa |
+| Nível | Pós-Graduação |
+| Avaliação | Projeto em grupo + artigo |
+:::
+
+::: notes
+Esta disciplina existe porque o sequenciamento de nova geração se tornou rotina em biologia, mas a maioria dos programas ainda não prepara o pesquisador para lidar com esses dados.
+:::
+
+---
+
+## O que é Bioinformática?
+
+:::: {.columns}
+::: {.column width="55%"}
+> **Bioinformática** é a aplicação de métodos computacionais e estatísticos para organizar, analisar e interpretar dados biológicos — especialmente dados moleculares em larga escala.
+
+::: {.fragment}
+**Três pilares:**
+
+- **Biologia** — a pergunta e o contexto
+- **Computação** — as ferramentas e algoritmos
+- **Estatística** — a interpretação dos resultados
+:::
+:::
+::: {.column width="45%"}
+::: {.fragment}
+```{=html}
+<div style="background:#f5f0e8; border:2px solid #c8b89a; border-radius:10px; padding:1rem; font-size:0.85rem; margin-top:0.5rem;">
+  <div style="text-align:center; font-weight:700; margin-bottom:0.8rem; color:#2d2416;">Onde a Bioinformática atua</div>
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.5rem;">
+    <div style="background:white; border-radius:6px; padding:0.5rem; text-align:center; font-size:0.75rem;">🧬 Genômica</div>
+    <div style="background:white; border-radius:6px; padding:0.5rem; text-align:center; font-size:0.75rem;">🦠 Metagenômica</div>
+    <div style="background:white; border-radius:6px; padding:0.5rem; text-align:center; font-size:0.75rem;">🌿 Filogenômica</div>
+    <div style="background:white; border-radius:6px; padding:0.5rem; text-align:center; font-size:0.75rem;">📊 Pop. Genética</div>
+    <div style="background:white; border-radius:6px; padding:0.5rem; text-align:center; font-size:0.75rem;">🔬 Transcriptômica</div>
+    <div style="background:white; border-radius:6px; padding:0.5rem; text-align:center; font-size:0.75rem;">💊 Biologia Estrutural</div>
+  </div>
+</div>
+```
+:::
+:::
+::::
+
+::: notes
+Bioinformática não é só "rodar programas" — é integrar biologia, computação e estatística para responder perguntas biológicas. A pergunta sempre vem da biologia; as ferramentas são computacionais; a interpretação exige estatística. Sem os três pilares, a análise fica incompleta.
+:::
+
+---
+
+## Por que agora?
+
+```{=html}
+<div style="display:flex; align-items:center; gap:1.5rem; margin:0.5rem 0;">
+  <div style="text-align:center; min-width:140px;">
+    <div style="font-size:2.5rem;">📉</div>
+    <div style="font-size:0.8rem; font-weight:700; margin-top:0.3rem;">Custo do sequenciamento</div>
+    <div style="font-size:0.75rem; color:#888;">caiu 1.000.000× em 20 anos</div>
+  </div>
+  <div style="font-size:2rem; color:#8b6914;">→</div>
+  <div style="text-align:center; min-width:140px;">
+    <div style="font-size:2.5rem;">📈</div>
+    <div style="font-size:0.8rem; font-weight:700; margin-top:0.3rem;">Volume de dados</div>
+    <div style="font-size:0.75rem; color:#888;">dobra a cada 18 meses</div>
+  </div>
+  <div style="font-size:2rem; color:#8b6914;">→</div>
+  <div style="text-align:center; min-width:160px; background:#f5f0e8; border:2px solid #8b6914; border-radius:10px; padding:0.8rem;">
+    <div style="font-size:2.5rem;">🧑‍💻</div>
+    <div style="font-size:0.8rem; font-weight:700; margin-top:0.3rem;">Biólogo computacional</div>
+    <div style="font-size:0.75rem; color:#8b6914; font-weight:600;">habilidade essencial</div>
+  </div>
+</div>
+```
+
+::: {.fragment}
+> O sequenciamento de um genoma humano custava **US$ 3 bilhões** em 2003.  
+> Hoje custa menos de **US$ 200** — e um sequenciador de bancada cabe na sua mochila.
+:::
+
+::: {.fragment}
+::: {.callout-tip}
+**Consequência direta:** quem sabe analisar esses dados tem uma vantagem competitiva enorme no mercado acadêmico e industrial.
+:::
+:::
+
+::: notes
+O custo do sequenciamento caiu mais rápido que a Lei de Moore. Em 2003, o Projeto Genoma Humano custou 3 bilhões de dólares. Hoje você sequencia um genoma bacteriano por menos de 50 dólares. O volume de dados cresceu exponencialmente mas o número de bioinformatas qualificados não acompanhou — daí o gargalo.
+:::
+
+---
+
+## Os 5 Módulos
+
+```{=html}
+<div class="module-grid">
+  <div class="module-card active">
+    <div class="mod-num">M1</div>
+    <div class="mod-title">Ambiente Computacional</div>
+    <div class="mod-sub">Unix · Shell · R · Git</div>
+    <div class="mod-dates">15–17 jun</div>
+  </div>
+  <div class="module-card">
+    <div class="mod-num">M2</div>
+    <div class="mod-title">Controle de Qualidade</div>
+    <div class="mod-sub">fastp · Trimmomatic · FastQC</div>
+    <div class="mod-dates">18–20 jun</div>
+  </div>
+  <div class="module-card">
+    <div class="mod-num">M3</div>
+    <div class="mod-title">Montagem de Genomas</div>
+    <div class="mod-sub">SPAdes · Bradyrhizobium</div>
+    <div class="mod-dates">23–25 jun</div>
+  </div>
+  <div class="module-card">
+    <div class="mod-num">M4</div>
+    <div class="mod-title">Metagenômica</div>
+    <div class="mod-sub">QIIME2 · 16S amplicon</div>
+    <div class="mod-dates">26–27 jun</div>
+  </div>
+  <div class="module-card">
+    <div class="mod-num">M5</div>
+    <div class="mod-title">SNP Calling</div>
+    <div class="mod-sub">RAD-seq · PLINK</div>
+    <div class="mod-dates">01–04 jul</div>
+  </div>
+</div>
+```
+
+::: {.callout-note}
+Não haverá aula em **30 de junho** — bancas de qualificação do PPGSIS.
+:::
+
+::: notes
+Cinco módulos em três semanas. O Módulo 1 é o alicerce de tudo.
+:::
+
+---
+
+## Cronograma
+
+| Data | Módulo | Conteúdo |
+|------|--------|----------|
+| 15/06 | M1 | **Hoje** · Setup · Git básico |
+| 16/06 | M1 | Shell avançado · Pull requests |
+| 17/06 | M1 | R · Quarto · Notebooks versionados |
+| 18–20/06 | M2 | QC · fastp · Trimmomatic |
+| 23–25/06 | M3 | Montagem de genomas |
+| 26–27/06 | M4 | Metagenômica 16S |
+| ~~30/06~~ | — | *Sem aula — Qualificação PPGSIS* |
+| 01–04/07 | M5 | SNP Calling · Projetos finais |
+
+::: notes
+Cronograma completo. Notem o dia 30 sem aula. Projetos finais apresentados nos dias 3 e 4 de julho.
+:::
+
+---
+
+## Avaliação {.smaller}
+
+**Projeto em grupo** — escolha uma das três áreas:
+
+::: {.fragment}
+- Montagem de genomas *de novo*
+- Metagenômica (amplicon 16S)
+- SNP Calling / RAD-seq
+:::
+
+::: {.fragment}
+**Entregáveis:**
+
+- Apresentação dos resultados (06/07)
+- Texto em formato de artigo (10/07)
+:::
+
+::: {.fragment}
+::: {.callout-important}
+Todo o código deve estar **versionado no GitHub** desde o primeiro dia.  
+Reprodutibilidade faz parte da nota.
+:::
+:::
+
+::: notes
+Não tem prova. Avaliação baseada em projeto real, documentado, versionado e escrito como artigo. Se eu não conseguir rodar o código de vocês a partir do repositório, há penalização.
+:::
+
+---
+
+## Bloco 2 · Contexto Científico {background-color="#2d2416" style="color:#f5f0e8; text-align:center;"}
+
+*Por que bioinformática? Por que agora?*
+
+---
+
+## GUI vs CLI — duas formas de operar um computador
+
+```{=html}
+<div style="display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; margin-top:0.5rem;">
+  <div style="border:2px solid #c8b89a; border-radius:10px; padding:1.2rem; background:#faf8f4;">
+    <div style="font-size:1.3rem; font-weight:700; margin-bottom:0.5rem;">🖱️ GUI</div>
+    <div style="font-size:0.85rem; font-weight:600; color:#2d2416; margin-bottom:0.5rem;">Graphical User Interface</div>
+    <ul style="font-size:0.8rem; margin:0; padding-left:1.2rem; line-height:1.8;">
+      <li>Cliques, janelas, menus</li>
+      <li>Intuitivo para iniciantes</li>
+      <li>Difícil de automatizar</li>
+      <li>Não escala para grandes volumes</li>
+      <li>Exemplos: Windows Explorer, RStudio, Geneious</li>
+    </ul>
+  </div>
+  <div style="border:2px solid #8b6914; border-radius:10px; padding:1.2rem; background:#f0ebe0;">
+    <div style="font-size:1.3rem; font-weight:700; margin-bottom:0.5rem;">⌨️ CLI</div>
+    <div style="font-size:0.85rem; font-weight:600; color:#2d2416; margin-bottom:0.5rem;">Command Line Interface</div>
+    <ul style="font-size:0.8rem; margin:0; padding-left:1.2rem; line-height:1.8;">
+      <li>Comandos de texto no terminal</li>
+      <li>Curva de aprendizado inicial</li>
+      <li>Totalmente automatizável</li>
+      <li>Escala para milhares de amostras</li>
+      <li>Exemplos: Bash, Terminal, SSH</li>
+    </ul>
+  </div>
+</div>
+```
+
+::: {.fragment}
+::: {.callout-tip}
+**Em bioinformática:** quase todas as ferramentas são CLI. Dominar o terminal não é opcional.
+:::
+:::
+
+::: notes
+A maioria das pessoas passa a vida inteira usando GUI — clicando em ícones e menus. Em bioinformática, isso não funciona. As ferramentas são CLI porque precisam rodar em servidores remotos, processar centenas de amostras em paralelo, e ser automatizadas em pipelines. Hoje vocês darão os primeiros passos no terminal.
+:::
+
+---
+
+## O fluxo de dados NGS
+
+```{=html}
+<div class="pipeline-flow" style="gap:0.8rem; margin:1rem 0;">
+  <div class="pipe-step" style="min-width:130px; padding:1rem 0.8rem;">
+    <span class="pipe-icon" style="font-size:2rem;">🧫</span>
+    <div class="pipe-label" style="font-size:0.82rem; margin-top:0.4rem;">Amostra biológica</div>
+    <div class="pipe-sub">solo, água, tecido</div>
+  </div>
+  <div class="pipe-arrow" style="font-size:1.8rem;">→</div>
+  <div class="pipe-step" style="min-width:130px; padding:1rem 0.8rem;">
+    <span class="pipe-icon" style="font-size:2rem;">🔬</span>
+    <div class="pipe-label" style="font-size:0.82rem; margin-top:0.4rem;">Extração de DNA/RNA</div>
+    <div class="pipe-sub">preparo de biblioteca</div>
+  </div>
+  <div class="pipe-arrow" style="font-size:1.8rem;">→</div>
+  <div class="pipe-step" style="min-width:130px; padding:1rem 0.8rem;">
+    <span class="pipe-icon" style="font-size:2rem;">🧬</span>
+    <div class="pipe-label" style="font-size:0.82rem; margin-top:0.4rem;">Sequenciamento NGS</div>
+    <div class="pipe-sub">arquivo FASTQ bruto</div>
+  </div>
+  <div class="pipe-arrow" style="font-size:1.8rem;">→</div>
+  <div class="pipe-step highlight" style="min-width:150px; padding:1rem 0.8rem;">
+    <span class="pipe-icon" style="font-size:2rem;">💻</span>
+    <div class="pipe-label" style="font-size:0.82rem; margin-top:0.4rem; font-weight:800;">Bioinformática</div>
+    <div class="pipe-sub">QC → Montagem → Análise</div>
+  </div>
+  <div class="pipe-arrow" style="font-size:1.8rem;">→</div>
+  <div class="pipe-step" style="min-width:130px; padding:1rem 0.8rem;">
+    <span class="pipe-icon" style="font-size:2rem;">📊</span>
+    <div class="pipe-label" style="font-size:0.82rem; margin-top:0.4rem;">Conhecimento biológico</div>
+    <div class="pipe-sub">publicação, conservação</div>
+  </div>
+</div>
+```
+
+::: {.callout-tip}
+O gargalo atual está na etapa destacada. É exatamente aí que esta disciplina entra.
+:::
+
+::: notes
+Este é o fluxo típico em qualquer estudo genômico hoje. Vocês provavelmente já fizeram as etapas molhadas. O que costuma travar é a etapa computacional.
+:::
+
+---
+
+## Boas práticas em bioinformática
+
+:::: {.columns}
+::: {.column width="33%"}
+**📁 Organização**
+
+Estrutura consistente desde o início:
+
+```
+projeto/
+├── data/raw/
+├── data/processed/
+├── scripts/
+├── results/
+└── docs/
+```
+:::
+::: {.column width="33%"}
+**🔄 Reprodutibilidade**
+
+Tudo deve poder ser refeito:
+
+- Scripts comentados
+- Versões de ferramentas registradas
+- Ambiente documentado
+:::
+::: {.column width="33%"}
+**📝 Documentação**
+
+Registre *o que* e *por quê*:
+
+- Notebooks Quarto
+- README em cada pasta
+- Commits descritivos
+:::
+::::
+
+::: notes
+Três princípios que guiam toda a disciplina. Organização: projeto bagunçado é projeto morto. Reprodutibilidade: se você não consegue replicar sua análise, ela não é ciência. Documentação: o maior beneficiário é o você do futuro.
+:::
+
+---
+
+## Bloco 3 · Setup do Ambiente {background-color="#2d2416" style="color:#f5f0e8; text-align:center;"}
+
+*Vamos colocar tudo funcionando*
+
+---
+
+## Nossa filosofia: zero instalação
+
+O problema clássico de cursos de bioinformática:
+
+::: {.fragment}
+> *"Funciona na minha máquina"*
+
+Windows vs macOS vs Linux · Versões incompatíveis · Horas perdidas com setup
+:::
+
+::: {.fragment}
+**Nossa solução: GitHub Codespaces**
+
+- Ambiente Linux completo rodando na nuvem
+- Acessível por qualquer navegador
+- Idêntico para todos os alunos
+- Integrado ao GitHub — sem instalação local
+:::
+
+::: notes
+Em vez de gastar metade do curso resolvendo problemas de instalação, vamos usar GitHub Codespaces. Todo mundo tem exatamente o mesmo ambiente.
+:::
+
+---
+
+## Passo 1 — Conta no GitHub
+
+1. Acesse [github.com](https://github.com) e crie sua conta  
+   → Use o e-mail institucional `@alu.ufc.br` ou `@ufc.br`
+
+::: {.fragment}
+2. Acesse [education.github.com/pack](https://education.github.com/pack) e solicite o **GitHub Education Student Pack**  
+   → Aumenta o limite de Codespaces de 60h para **180h/mês**
+:::
+
+::: {.fragment}
+3. Confirme que sua conta está ativa
+:::
+
+::: {.callout-note}
+A aprovação do Student Pack pode levar até 24h — mas já podemos trabalhar sem ele hoje.
+:::
+
+::: notes
+Dar 5 minutos para quem não tem conta criar.
+:::
+
+---
+
+## Passo 2 — Fork do repositório
+
+**O que é um fork?** Uma cópia independente na *sua* conta — você modifica livremente sem afetar o original.
+
+::: {.fragment}
+1. Acesse: [github.com/yanttp/Bioinfo_PPGSis_2026.1](https://github.com/yanttp/Bioinfo_PPGSis_2026.1)
+2. Clique em **Fork** (canto superior direito)
+3. Confirme em `github.com/SEU_USUARIO/Bioinfo_PPGSis_2026.1`
+:::
+
+::: {.callout-tip}
+Mais tarde você aprenderá a sincronizar seu fork via **Pull Request** — é como colaboração em código aberto funciona.
+:::
+
+::: notes
+Fork é um dos conceitos mais importantes do GitHub. Aguardar todos fazerem o fork.
+:::
+
+---
+
+## Passo 3 — Abrindo o Codespace
+
+::: {.fragment}
+1. No seu fork, clique em **`< > Code`** (botão verde)
+:::
+::: {.fragment}
+2. Aba **Codespaces** → **"Create codespace on main"**
+:::
+::: {.fragment}
+3. Aguarde ~1 minuto até carregar
+:::
+::: {.fragment}
+4. VS Code no navegador com terminal integrado — pronto!
+:::
+
+::: {.callout-tip}
+Da próxima vez o Codespace já existe — clique em **"Open in browser"** para retomá-lo.
+:::
+
+::: notes
+Enquanto carrega: o GitHub está provisionando uma máquina virtual Linux para cada um. Aguardar todos com o Codespace aberto.
+:::
+
+---
+
+## Passo 4 — Primeiros comandos
+
+```bash
+pwd           # onde estou?
+ls -la        # o que tem aqui?
+tree -L 2     # estrutura de diretórios
+whoami        # qual usuário?
+```
+
+**Navegação:**
+
+```bash
+mkdir minha_analise   # criar pasta
+cd minha_analise      # entrar
+cd ..                 # voltar um nível
+cd ~                  # ir para home
+touch notas.txt       # criar arquivo
+cat notas.txt         # ver conteúdo
+```
+
+::: {.callout-tip}
+**Digite** — não copie e cole. A digitação ajuda a memorizar.
+:::
+
+::: notes
+Quero que todo mundo abra o terminal no Codespace. pwd, ls -la e cd são os três que mais vão usar nas próximas semanas.
+:::
+
+---
+
+## Git & GitHub · Controle de Versão {background-color="#2d2416" style="color:#f5f0e8; text-align:center;"}
+
+*Nunca mais `analise_final_v3_DEFINITIVO_2.R`*
+
+---
+
+## Por que controle de versão?
+
+:::: {.columns}
+::: {.column width="48%"}
+**Sem Git:**
+
+```
+analise.R
+analise_v2.R
+analise_final.R
+analise_DEFINITIVO.R
+analise_USAR_ESSE.R
+```
+
+Qual é o atual? O que mudou entre versões?
+:::
+::: {.column width="52%"}
+::: {.fragment}
+**Com Git:**
+
+```
+analise.R  ← apenas um arquivo
+```
+
+```bash
+git log --oneline
+a3f2c1d Corrige filtro de qualidade
+b8e4d2a Adiciona suporte paired-end
+c1a9f3e Versão inicial do pipeline
+```
+
+Histórico completo, sem duplicatas.
+:::
+:::
+::::
+
+::: notes
+Quem já teve uma pasta parecendo com a da esquerda? Git resolve isso completamente.
+:::
+
+---
+
+## O fluxo do Git
+
+```{=html}
+<div style="margin: 1rem 0;">
+  <div style="display:flex; align-items:stretch; gap:0; border-radius:10px; overflow:hidden; border:2px solid #c8b89a;">
+    <div style="flex:1; background:#fdf6e3; padding:1rem; text-align:center; border-right:1px solid #c8b89a;">
+      <div style="font-size:1.5rem;">📝</div>
+      <div style="font-weight:700; font-size:0.85rem; margin:0.3rem 0;">Working Directory</div>
+      <div style="font-size:0.72rem; color:#888;">seus arquivos locais</div>
+      <div style="margin-top:0.8rem; font-size:0.7rem; background:#fff3cd; border-radius:4px; padding:0.3rem; color:#856404;">arquivos modificados aparecem em vermelho no <code>git status</code></div>
+    </div>
+    <div style="display:flex; flex-direction:column; justify-content:center; padding:0.5rem; background:#f5f0e8; font-size:0.72rem; text-align:center; min-width:70px; border-right:1px solid #c8b89a;">
+      <code style="background:#8b6914; color:white; padding:2px 5px; border-radius:3px;">git add</code>
+      <div style="font-size:1rem; margin-top:0.3rem;">→</div>
+    </div>
+    <div style="flex:1; background:#e8f5e9; padding:1rem; text-align:center; border-right:1px solid #c8b89a;">
+      <div style="font-size:1.5rem;">📦</div>
+      <div style="font-weight:700; font-size:0.85rem; margin:0.3rem 0;">Staging Area</div>
+      <div style="font-size:0.72rem; color:#888;">selecionados para o commit</div>
+      <div style="margin-top:0.8rem; font-size:0.7rem; background:#d4edda; border-radius:4px; padding:0.3rem; color:#155724;">arquivos prontos aparecem em verde no <code>git status</code></div>
+    </div>
+    <div style="display:flex; flex-direction:column; justify-content:center; padding:0.5rem; background:#f5f0e8; font-size:0.72rem; text-align:center; min-width:80px; border-right:1px solid #c8b89a;">
+      <code style="background:#8b6914; color:white; padding:2px 5px; border-radius:3px;">git commit</code>
+      <div style="font-size:1rem; margin-top:0.3rem;">→</div>
+    </div>
+    <div style="flex:1; background:#e8eaf6; padding:1rem; text-align:center; border-right:1px solid #c8b89a;">
+      <div style="font-size:1.5rem;">🏠</div>
+      <div style="font-weight:700; font-size:0.85rem; margin:0.3rem 0;">Repositório Local</div>
+      <div style="font-size:0.72rem; color:#888;">histórico no seu computador</div>
+      <div style="margin-top:0.8rem; font-size:0.7rem; background:#e0e0e0; border-radius:4px; padding:0.3rem; color:#333;">snapshot permanente com mensagem</div>
+    </div>
+    <div style="display:flex; flex-direction:column; justify-content:center; padding:0.5rem; background:#f5f0e8; font-size:0.72rem; text-align:center; min-width:70px; border-right:1px solid #c8b89a;">
+      <code style="background:#8b6914; color:white; padding:2px 5px; border-radius:3px;">git push</code>
+      <div style="font-size:1rem; margin-top:0.3rem;">→</div>
+    </div>
+    <div style="flex:1; background:#fce4ec; padding:1rem; text-align:center;">
+      <div style="font-size:1.5rem;">☁️</div>
+      <div style="font-weight:700; font-size:0.85rem; margin:0.3rem 0;">GitHub (Remoto)</div>
+      <div style="font-size:0.72rem; color:#888;">backup + colaboração</div>
+      <div style="margin-top:0.8rem; font-size:0.7rem; background:#f8bbd0; border-radius:4px; padding:0.3rem; color:#880e4f;">visível para colaboradores</div>
+    </div>
+  </div>
+</div>
+```
+
+```bash
+git status → git add . → git commit -m "mensagem" → git push origin main
+```
+
+::: notes
+Esse fluxo é o coração do Git. Working directory é onde você trabalha. Staging é a área de preparação. Commit é o snapshot. Push envia para o GitHub. Importante: commit sem push só existe localmente.
+:::
+
+---
+
+## Os 4 comandos essenciais
+
+```bash
+git status                              # ver o que mudou
+git add nome_do_arquivo.R               # selecionar para o commit
+git commit -m "Descrição da mudança"    # registrar snapshot
+git push origin main                    # enviar para o GitHub
+```
+
+::: {.fragment}
+**Para receber atualizações do repositório original:**
+
+```bash
+git pull origin main                    # baixar mudanças remotas
+```
+:::
+
+::: notes
+Git tem dezenas de comandos, mas no dia a dia você usa principalmente quatro — e o pull quando trabalha em equipe.
+:::
+
+---
+
+## Exercício — primeiro commit
+
+```bash
+# Criar arquivo de notas
+echo "# Notas - Aula 1 Bioinformática" > notas_aula1.md
+echo "Data: 15/06/2026" >> notas_aula1.md
+
+# Ver o status
+git status
+
+# Adicionar, commitar e publicar
+git add notas_aula1.md
+git commit -m "Adiciona notas da primeira aula"
+git push origin main
+```
+
+::: {.callout-important}
+Verifique no GitHub — o arquivo deve aparecer no seu repositório.  
+Esse é o objetivo antes de sair hoje.
+:::
+
+::: notes
+Este é o exercício mais importante do dia. Quero que todo mundo faça um commit e push antes de sair.
+:::
+
+---
+
+## Boas mensagens de commit
+
+:::: {.columns}
+::: {.column width="50%"}
+**Evite:**
+
+```bash
+git commit -m "correção"
+git commit -m "mudanças"
+git commit -m "versão final"
+git commit -m "."
+```
+:::
+::: {.column width="50%"}
+::: {.fragment}
+**Prefira:**
+
+```bash
+git commit -m "Corrige filtro de reads curtas"
+git commit -m "Adiciona suporte a paired-end"
+git commit -m "Atualiza parâmetros do Trimmomatic"
+```
+:::
+:::
+::::
+
+::: {.fragment}
+::: {.callout-tip}
+**Regra:** complete a frase *"Este commit \_\_\_\_\_\_"*
+:::
+:::
+
+::: notes
+Mensagens de commit são um hábito pequeno com grande impacto.
+:::
+
+---
+
+## O que vem na próxima aula
+
+**Aula 2 — 16/06 · Shell & Colaboração**
+
+- Comandos Shell para bioinformática: `grep`, `sed`, `awk`, pipes `|`, loops `for`
+- Workflow colaborativo: branches · pull requests · resolução de conflitos
+
+::: {.callout-note}
+**Para amanhã (opcional mas recomendado):**  
+Lições 1–3 do [Data Carpentry Genomics Workshop](https://datacarpentry.org/shell-genomics/) — ~1h, cobre exatamente o que veremos.
+:::
+
+::: notes
+Amanhã avançamos bastante em Shell e no workflow colaborativo do GitHub que vocês vão usar nos projetos em grupo.
+:::
+
+---
+
+## Checklist de hoje {.smaller}
+
+Antes de sair, confirme:
+
+::: {.fragment}
+- [ ] Conta no GitHub criada com e-mail institucional
+- [ ] GitHub Education Student Pack solicitado
+:::
+::: {.fragment}
+- [ ] Fork do repositório `yanttp/Bioinfo_PPGSis_2026.1` feito
+- [ ] Codespace aberto e funcionando
+:::
+::: {.fragment}
+- [ ] Comandos `pwd`, `ls`, `cd` executados no terminal
+- [ ] Arquivo commitado e visível no seu GitHub
+
+::: {.callout-important}
+**Antes de amanhã:** confirme que consegue reabrir seu Codespace.  
+Dúvidas: yanttp@ufc.br
+:::
+:::
+
+::: notes
+Checklist coletivo antes de liberar. O crítico é o último — commit e push.
+:::
+
+---
+
+## Ótimo trabalho hoje! {background-color="#2d2416" style="color:#f5f0e8; text-align:center;"}
+
+Vocês configuraram um ambiente de bioinformática profissional  
+e fizeram seu primeiro registro científico versionado.
+
+**Nos vemos amanhã às 08h00**
+
+[github.com/yanttp/Bioinfo_PPGSis_2026.1](https://github.com/yanttp/Bioinfo_PPGSis_2026.1)
+
+yanttp@ufc.br
