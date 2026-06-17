@@ -30,46 +30,41 @@ git push origin main --force
 # ─────────────────────────────────────────────────────────────────────────────
 
 # Estrutura de diretórios desta aula
-mkdir -p 1.dados/brutos/aula_03
-mkdir -p 2.resultados/qc/pre
-mkdir -p 2.resultados/qc/pos
-mkdir -p 2.resultados/multiqc/pre
-mkdir -p 2.resultados/multiqc/pos
-mkdir -p 2.resultados/trimmed
-mkdir -p 3.scripts
-mkdir -p logs
+mkdir -p 1.dados/1.brutos/aula_03
+mkdir -p 1.dados/qc/pre_qc
+mkdir -p 1.dados/qc/pos_qc
+mkdir -p 1.dados/multiqc/pre
+mkdir -p 1.dados/multiqc/pos
+mkdir -p 2.limpos/trimmed
 
-# Copiar os dados da aula para o lugar certo
-cp ~/dados_aula/aula_03/*.fastq.gz 1.dados/brutos/aula_03/
-
-# Conferir o que chegou
-ls -lh 1.dados/brutos/aula_03/
+# Conferir os dados
+ls -lh 1.dados/1.brutos/aula_03/
 
 # ─────────────────────────────────────────────────────────────────────────────
 # SLIDE 6 – Revisão do formato FASTQ
 # ─────────────────────────────────────────────────────────────────────────────
 
 # Ver as 8 primeiras linhas (= 2 reads completos)
-zcat 1.dados/brutos/aula_03/Arapaima_gigas_R1.fastq.gz | head -8
+zcat 1.dados/1.brutos/aula_03/Arapaima_gigas_R1.fastq.gz | head -8
 
 # Linha 1: header @  |  Linha 2: sequência  |  Linha 3: +  |  Linha 4: qualidade
 # Contar reads: cada read ocupa exatamente 4 linhas
-zcat 1.dados/brutos/aula_03/Arapaima_gigas_R1.fastq.gz | wc -l
+zcat 1.dados/1.brutos/aula_03/Arapaima_gigas_R1.fastq.gz | wc -l
 
 # Dividir por 4 para obter o número de reads
-echo $(( $(zcat 1.dados/brutos/aula_03/Arapaima_gigas_R1.fastq.gz | wc -l) / 4 )) reads
+echo $(( $(zcat 1.dados/1.brutos/aula_03/Arapaima_gigas_R1.fastq.gz | wc -l) / 4 )) reads
 
 # Inspecionar só as qualidades (linha 4 de cada read)
-zcat 1.dados/brutos/aula_03/Arapaima_gigas_R1.fastq.gz | awk 'NR%4==0' | head -3
+zcat 1.dados/1.brutos/aula_03/Arapaima_gigas_R1.fastq.gz | awk 'NR%4==0' | head -3
 
 # Comparar qualidade Arapaima (boa) vs Bothrops (degradada)
 echo "--- Arapaima (Q35+) ---"
-zcat 1.dados/brutos/aula_03/Arapaima_gigas_R1.fastq.gz | awk 'NR%4==0' | head -2
+zcat 1.dados/1.brutos/aula_03/Arapaima_gigas_R1.fastq.gz | awk 'NR%4==0' | head -2
 echo "--- Bothrops (queda 3') ---"
-zcat 1.dados/brutos/aula_03/Bothrops_jararaca_R1.fastq.gz | awk 'NR%4==0' | head -2
+zcat 1.dados/1.brutos/aula_03/Bothrops_jararaca_R1.fastq.gz | awk 'NR%4==0' | head -2
 
 # Verificar adaptador Illumina na Bothrops
-zcat 1.dados/brutos/aula_03/Bothrops_jararaca_R1.fastq.gz \
+zcat 1.brutos/aula_03/Bothrops_jararaca_R1.fastq.gz \
     | awk 'NR%4==2' \
     | grep -c "AGATCGGAAGAG"
 
@@ -81,21 +76,21 @@ zcat 1.dados/brutos/aula_03/Bothrops_jararaca_R1.fastq.gz \
 
 # Rodar FastQC só no Arapaima R1 para ver o relatório
 fastqc \
-    1.dados/brutos/aula_03/Arapaima_gigas_R1.fastq.gz \
+    1.dados/1.brutos/aula_03/Arapaima_gigas_R1.fastq.gz \
     -o 2.resultados/qc/pre/
 
 # Ver o que foi gerado
 ls -lh 2.resultados/qc/pre/
 
 # O .html é o relatório visual → abrir no browser
-# O .zip contém os dados brutos → MultiQC vai ler esse
+# O .zip contém os dados 1.brutos → MultiQC vai ler esse
 
 # ─────────────────────────────────────────────────────────────────────────────
 # SLIDE 8 – FastQC em TODOS os arquivos (automatizado)
 # ─────────────────────────────────────────────────────────────────────────────
 
 fastqc \
-    1.dados/brutos/aula_03/*.fastq.gz \
+    1.dados/1.brutos/aula_03/*.fastq.gz \
     -o 2.resultados/qc/pre/ \
     -t 4
 
@@ -120,8 +115,8 @@ ls -lh 2.resultados/multiqc/pre/
 
 # Variáveis para facilitar a leitura do comando
 AMOSTRA="Arapaima_gigas"
-R1_IN="1.dados/brutos/aula_03/${AMOSTRA}_R1.fastq.gz"
-R2_IN="1.dados/brutos/aula_03/${AMOSTRA}_R2.fastq.gz"
+R1_IN="1.dados/1.brutos/aula_03/${AMOSTRA}_R1.fastq.gz"
+R2_IN="1.dados/1.brutos/aula_03/${AMOSTRA}_R2.fastq.gz"
 R1_PAIRED="2.resultados/trimmed/${AMOSTRA}_R1.paired.fastq.gz"
 R1_UNPAIRED="2.resultados/trimmed/${AMOSTRA}_R1.unpaired.fastq.gz"
 R2_PAIRED="2.resultados/trimmed/${AMOSTRA}_R2.paired.fastq.gz"

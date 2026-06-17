@@ -450,7 +450,7 @@ Transaction
   + _openmp_mutex                                    4.5  20_gnu                 conda-forge     Cached
   + _python_abi3_support                             1.0  hd8ed1ab_2             conda-forge        8kB
   + _r-mutex                                       1.0.1  anacondar_1            conda-forge        4kB
-  + alsa-lib                                      1.2.16  hb03c661_1             conda-forge      593kB
+  + alsa-lib                                    1.2.16.1  hb03c661_0             conda-forge      592kB
   + annotated-types                                0.7.0  pyhd8ed1ab_1           conda-forge       18kB
   + any2fasta                                      0.8.1  hdfd78af_0             bioconda          24kB
   + aom                                            3.9.1  hac33072_0             conda-forge        3MB
@@ -503,7 +503,7 @@ Transaction
   + dnspython                                      2.8.0  pyhcf101f3_0           conda-forge      196kB
   + entrez-direct                                   22.4  he881be0_0             bioconda          15MB
   + expat                                          2.8.1  hecca717_1             conda-forge      148kB
-  + fastp                                          1.3.3  h43da1c4_0             bioconda           3MB
+  + fastp                                          1.3.4  h43da1c4_0             bioconda           3MB
   + fastqc                                        0.12.1  hdfd78af_0             bioconda          12MB
   + fasttree                                       2.2.0  h7b50bb2_1             bioconda         198kB
   + font-ttf-dejavu-sans-mono                       2.37  hab24e00_0             conda-forge      397kB
@@ -540,7 +540,7 @@ Transaction
   + humanize                                      4.15.0  pyhd8ed1ab_0           conda-forge       68kB
   + hyperframe                                     6.1.0  pyhd8ed1ab_0           conda-forge     Cached
   + icu                                             75.1  he02047a_0             conda-forge       12MB
-  + idna                                            3.17  pyhcf101f3_0           conda-forge     Cached
+  + idna                                            3.18  pyhcf101f3_0           conda-forge      164kB
   + importlib-metadata                             9.0.0  pyhcf101f3_0           conda-forge       35kB
   + infernal                                       1.1.5  pl5321h7b50bb2_4       bioconda           4MB
   + isa-l                                         2.31.1  hb9d3cd8_1             conda-forge      157kB
@@ -621,7 +621,7 @@ Transaction
   + libtiff                                        4.7.1  h9d88235_1             conda-forge      435kB
   + libudunits2                                   2.2.28  h40f5838_3             conda-forge       81kB
   + libunistring                                  0.9.10  h7f98852_0             conda-forge        1MB
-  + libuuid                                       2.42.1  h5347b49_0             conda-forge     Cached
+  + libuuid                                       2.42.2  h5347b49_0             conda-forge       40kB
   + libuv                                         1.52.1  h280c20c_0             conda-forge      420kB
   + libwebp-base                                   1.6.0  hd42ef1d_0             conda-forge      429kB
   + libxcb                                        1.17.0  h8a09558_0             conda-forge      396kB
@@ -673,7 +673,7 @@ Transaction
   + pandoc                                          3.10  ha770c72_0             conda-forge       23MB
   + pango                                         1.56.3  h9ac818e_1             conda-forge      453kB
   + parallel                                    20260422  ha770c72_0             conda-forge        2MB
-  + pasta                                          1.9.3  py311hefa8cab_0        bioconda           1MB
+  + pasta                                          1.9.3  py311h10a5f38_1        bioconda           1MB
   + pbzip2                                        1.1.13  h1fcc475_2             conda-forge       42kB
   + pcre                                            8.45  h9c3ff4c_0             conda-forge      259kB
   + pcre2                                          10.44  hc749103_2             conda-forge      956kB
@@ -817,7 +817,7 @@ Transaction
   + perl-tree-dag_node                              1.35  pl5321hdfd78af_0       bioconda          45kB
   + perl-try-tiny                                   0.31  pl5321ha770c72_0       conda-forge       18kB
   + perl-types-serialiser                           1.01  pl5321hdfd78af_0       bioconda          13kB
-  + perl-uri                                        5.34  pl5321ha770c72_0       conda-forge       79kB
+  + perl-uri                                        5.35  pl5321ha770c72_0       conda-forge       81kB
   + perl-url-encode                                 0.03  pl5321h9ee0642_1       bioconda          13kB
   + perl-www-robotrules                             6.03  pl5321hdfd78af_0       bioconda          18kB
   + perl-xml-dom                                    1.46  pl5321hdfd78af_1       bioconda          60kB
@@ -840,7 +840,7 @@ Transaction
   + polars                                        1.41.2  pyh58ad624_0           conda-forge      540kB
   + polars-runtime-32                             1.41.2  py310h49dadd8_0        conda-forge       43MB
   + polars-runtime-compat                         1.41.2  py310hcbd6021_0        conda-forge       42MB
-  + prank                                         170427  h9948957_1             bioconda         410kB
+  + prank                                         251117  hd63eeec_0             bioconda         454kB
   + prodigal                                       2.6.3  h577a1d6_11            bioconda         602kB
   + proj                                           9.5.1  h0054346_0             conda-forge        3MB
   + prokka                                        1.15.6  pl5321hdfd78af_0       bioconda         249MB
@@ -969,7 +969,7 @@ Transaction
   + r-rmarkdown                                     2.31  r44hc72bb7e_0          conda-forge        2MB
   + r-rstudioapi                                  0.19.0  r44hc72bb7e_0          conda-forge      357kB
   + r-rvest                                        1.0.5  r44hc72bb7e_1          conda-forge      305kB
-  + r-s2                                           1.1.9  r44hd0bad79_4          conda-forge        2MB
+  + r-s2                                          1.1.11  r44hd0bad79_0          conda-forge        2MB
   + r-s7                                           0.2.2  r44h54b55ab_0          conda-forge      311kB
   + r-sass                                        0.4.10  r44h3697838_1          conda-forge        2MB
   + r-scales                                       1.4.0  r44hc72bb7e_1          conda-forge      781kB
@@ -1132,7 +1132,7 @@ Linking lzo-2.10-h280c20c_1002
 Linking xorg-libxdmcp-1.1.5-hb03c661_1
 Linking xorg-libxau-1.0.12-hb03c661_1
 Linking pthread-stubs-0.4-hb9d3cd8_1002
-Linking alsa-lib-1.2.16-hb03c661_1
+Linking alsa-lib-1.2.16.1-hb03c661_0
 Linking json-c-0.18-h6688a6e_0
 Linking libnsl-2.0.1-hb9d3cd8_1
 Linking yaml-0.2.5-h280c20c_3
@@ -1142,6 +1142,7 @@ Linking libpng-1.6.58-h421ea60_0
 Linking libjpeg-turbo-3.1.4.1-hb03c661_0
 Linking fribidi-1.0.16-hb03c661_0
 Linking libgfortran5-15.2.0-h68bc16d_19
+Linking libuuid-2.42.2-h5347b49_0
 Linking libexpat-2.8.1-hecca717_1
 Linking libiconv-1.18-h3b78370_2
 Linking openssl-3.6.3-h35e630c_0
@@ -1156,7 +1157,6 @@ Linking xorg-libice-1.1.2-hb9d3cd8_0
 Linking tree-2.3.2-hb03c661_0
 Linking libsqlite-3.53.2-h0c1763c_0
 Linking ncurses-6.6-hdb14827_0
-Linking libuuid-2.42.1-h5347b49_0
 Linking liblzma-5.8.3-hb03c661_0
 Linking libdeflate-1.25-h17f619e_0
 Linking isa-l-2.31.1-hb9d3cd8_1
@@ -1205,9 +1205,9 @@ Linking lp_solve-5.5.2.11-hd590300_0
 Linking libidn11-1.34-h1cef754_0
 Linking giflib-5.2.2-hd590300_0
 Linking pcre2-10.44-hc749103_2
+Linking xorg-libsm-1.2.6-he73a12e_0
 Linking readline-8.3-h853b02a_0
 Linking libedit-3.1.20250104-pl5321h7949ede_0
-Linking xorg-libsm-1.2.6-he73a12e_0
 Linking minizip-4.2.1-hb71707f_0
 Linking xz-tools-5.8.3-hb03c661_0
 Linking xz-gpl-tools-5.8.3-ha02ee65_0
@@ -1406,25 +1406,25 @@ Linking r-classint-0.4_11-r44heaba542_1
 Linking seqkit-2.13.0-he881be0_0
 Linking taxonkit-0.20.0-h9ee0642_1
 Linking paml-4.10.10-h87e0c26_2
-Linking velvet-1.2.10-h577a1d6_9
 Linking raxml-8.2.13-h7b50bb2_3
 Linking fasttree-2.2.0-h7b50bb2_1
+Linking velvet-1.2.10-h577a1d6_9
 Linking miniprot-0.18-h577a1d6_0
 Linking prodigal-2.6.3-h577a1d6_11
 Linking aragorn-1.2.41-h7b50bb2_5
-Linking cdbtools-0.99-h077b44d_12
-Linking ncbi-vdb-3.4.1-hd63eeec_0
-Linking prank-170427-h9948957_1
 Linking muscle-3.8.1551-h9948957_9
 Linking clustalw-2.1-h9948957_12
+Linking cdbtools-0.99-h077b44d_12
+Linking ncbi-vdb-3.4.1-hd63eeec_0
 Linking k8-1.2-he8db53b_6
+Linking prank-251117-hd63eeec_0
 Linking transtermhp-2.09-h9948957_2
 Linking rpsbproc-0.5.1-hd6d6fdc_0
 Linking diamond-2.2.1-he361c42_0
 Linking samtools-0.1.19-h9dcdb79_15
 Linking bedtools-2.31.1-h13024bc_3
 Linking bamtools-2.5.3-he132191_0
-Linking fastp-1.3.3-h43da1c4_0
+Linking fastp-1.3.4-h43da1c4_0
 Linking bwa-mem2-2.3-he70b90d_0
 Linking clustalo-1.2.4-h503566f_10
 Linking tbl2asn-forever-25.7.2f-h7b50bb2_6
@@ -1539,7 +1539,7 @@ Linking mdurl-0.1.2-pyhd8ed1ab_1
 Linking narwhals-2.22.1-pyhcf101f3_0
 Linking charset-normalizer-3.4.7-pyhd8ed1ab_0
 Linking certifi-2026.5.20-pyhd8ed1ab_0
-Linking idna-3.17-pyhcf101f3_0
+Linking idna-3.18-pyhcf101f3_0
 Linking pygments-2.20.0-pyhd8ed1ab_0
 Linking typing_extensions-4.15.0-pyhcf101f3_0
 Linking archspec-0.2.5-pyhd8ed1ab_0
@@ -1641,13 +1641,13 @@ Linking pyyaml-6.0.3-py311h3778330_1
 Linking pillow-12.2.0-py311hf88fc01_0
 Linking numpy-2.3.5-py311h2e04523_1
 Linking r-httpuv-1.6.17-r44h6d565e7_0
-Linking perl-uri-5.34-pl5321ha770c72_0
+Linking perl-uri-5.35-pl5321ha770c72_0
 Linking pymongo-4.17.0-py311h1ddb823_0
 Linking pydantic-core-2.46.4-py311h902ca64_0
 Linking polars-runtime-32-1.41.2-py310h49dadd8_0
 Linking polars-runtime-compat-1.41.2-py310hcbd6021_0
 Linking r-seqinr-4.2_44-r44h1c8cec4_0
-Linking r-s2-1.1.9-r44hd0bad79_4
+Linking r-s2-1.1.11-r44hd0bad79_0
 Linking r-lubridate-1.9.5-r44h54b55ab_0
 Linking r-textshaping-0.4.0-r44ha47bcaa_2
 Linking r-igraph-2.1.4-r44hadbbdbc_1
@@ -1734,7 +1734,7 @@ Linking perl-bio-samtools-1.43-pl5321h577a1d6_6
 Linking stacks-2.68-h077b44d_3
 Linking perl-json-xs-4.04-pl5321h9948957_0
 Linking perl-io-compress-2.216-pl5321h503566f_0
-Linking pasta-1.9.3-py311hefa8cab_0
+Linking pasta-1.9.3-py311h10a5f38_1
 Linking augustus-3.5.0-pl5321h95201ac_4
 Linking sepp-4.5.5-py311haab0aaa_3
 Linking perl-file-slurper-0.014-pl5321hdfd78af_0
@@ -1930,7 +1930,7 @@ configure: creating ./config.status
 config.status: creating src/Makevars
 gunzip -dc hdf5small_cxx_hl_1.10.7.tar.gz | tar xf -;
 cd hdf5/libaec-1.0.4/build; \
-../configure --with-pic --enable-shared=no --prefix=/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip --libdir=/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib \
+../configure --with-pic --enable-shared=no --prefix=/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip --libdir=/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib \
 CC='x86_64-conda-linux-gnu-cc' CXX='x86_64-conda-linux-gnu-c++ -std=gnu++17' \
 CPPFLAGS='-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib' \
 CFLAGS='-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic' \
@@ -2035,9 +2035,9 @@ config.status: creating src/Makefile
 config.status: creating config/config.h
 config.status: executing libtool commands
 config.status: executing depfiles commands
-make[1]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
+make[1]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
 Making all in src
-make[2]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/src'
+make[2]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/src'
 x86_64-conda-linux-gnu-cc -DHAVE_CONFIG_H -I. -I../../src -I../config  -DBUILDING_LIBAEC -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -fvisibility=hidden -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -MT aec.o -MD -MP -MF .deps/aec.Tpo -c -o aec.o ../../src/aec.c
 mv -f .deps/aec.Tpo .deps/aec.Po
 /bin/bash ../libtool  --tag=CC   --mode=compile x86_64-conda-linux-gnu-cc -DHAVE_CONFIG_H -I. -I../../src -I../config  -DBUILDING_LIBAEC -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -fvisibility=hidden -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -MT encode.lo -MD -MP -MF .deps/encode.Tpo -c -o encode.lo ../../src/encode.c
@@ -2049,7 +2049,7 @@ mv -f .deps/encode_accessors.Tpo .deps/encode_accessors.Plo
 /bin/bash ../libtool  --tag=CC   --mode=compile x86_64-conda-linux-gnu-cc -DHAVE_CONFIG_H -I. -I../../src -I../config  -DBUILDING_LIBAEC -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -fvisibility=hidden -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -MT decode.lo -MD -MP -MF .deps/decode.Tpo -c -o decode.lo ../../src/decode.c
 libtool: compile:  x86_64-conda-linux-gnu-cc -DHAVE_CONFIG_H -I. -I../../src -I../config -DBUILDING_LIBAEC -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -fvisibility=hidden -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -MT decode.lo -MD -MP -MF .deps/decode.Tpo -c ../../src/decode.c  -fPIC -DPIC -o decode.o
 mv -f .deps/decode.Tpo .deps/decode.Plo
-/bin/bash ../libtool  --tag=CC   --mode=link x86_64-conda-linux-gnu-cc -fvisibility=hidden -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -version-info 0:10:0 -no-undefined  -o libaec.la -rpath /tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib encode.lo encode_accessors.lo decode.lo  
+/bin/bash ../libtool  --tag=CC   --mode=link x86_64-conda-linux-gnu-cc -fvisibility=hidden -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -version-info 0:10:0 -no-undefined  -o libaec.la -rpath /tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib encode.lo encode_accessors.lo decode.lo  
 libtool: link: x86_64-conda-linux-gnu-ar cr .libs/libaec.a  encode.o encode_accessors.o decode.o
 libtool: link: x86_64-conda-linux-gnu-ranlib .libs/libaec.a
 libtool: link: ( cd ".libs" && rm -f "libaec.la" && ln -s "../libaec.la" "libaec.la" )
@@ -2062,33 +2062,33 @@ libtool: link: x86_64-conda-linux-gnu-cc -fvisibility=hidden -march=nocona -mtun
 /bin/bash ../libtool  --tag=CC   --mode=compile x86_64-conda-linux-gnu-cc -DHAVE_CONFIG_H -I. -I../../src -I../config  -DBUILDING_LIBAEC -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -fvisibility=hidden -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -MT sz_compat.lo -MD -MP -MF .deps/sz_compat.Tpo -c -o sz_compat.lo ../../src/sz_compat.c
 libtool: compile:  x86_64-conda-linux-gnu-cc -DHAVE_CONFIG_H -I. -I../../src -I../config -DBUILDING_LIBAEC -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -fvisibility=hidden -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -MT sz_compat.lo -MD -MP -MF .deps/sz_compat.Tpo -c ../../src/sz_compat.c  -fPIC -DPIC -o sz_compat.o
 mv -f .deps/sz_compat.Tpo .deps/sz_compat.Plo
-/bin/bash ../libtool  --tag=CC   --mode=link x86_64-conda-linux-gnu-cc -fvisibility=hidden -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -version-info 2:1:0 -no-undefined  -o libsz.la -rpath /tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib sz_compat.lo libaec.la 
+/bin/bash ../libtool  --tag=CC   --mode=link x86_64-conda-linux-gnu-cc -fvisibility=hidden -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -version-info 2:1:0 -no-undefined  -o libsz.la -rpath /tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib sz_compat.lo libaec.la 
 libtool: link: x86_64-conda-linux-gnu-ar cr .libs/libsz.a  sz_compat.o
 libtool: link: x86_64-conda-linux-gnu-ranlib .libs/libsz.a
 libtool: link: ( cd ".libs" && rm -f "libsz.la" && ln -s "../libsz.la" "libsz.la" )
-make[2]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/src'
-make[2]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
+make[2]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/src'
+make[2]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
 make[2]: Nothing to be done for 'all-am'.
-make[2]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
-make[1]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
-make[1]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
+make[2]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
+make[1]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
+make[1]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
 Making install in src
-make[2]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/src'
-make[3]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/src'
- /usr/bin/mkdir -p '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib'
- /bin/bash ../libtool   --mode=install /usr/bin/install -c   libaec.la libsz.la '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib'
-libtool: install: /usr/bin/install -c .libs/libaec.lai /tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib/libaec.la
-libtool: install: /usr/bin/install -c .libs/libsz.lai /tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib/libsz.la
-libtool: install: /usr/bin/install -c .libs/libaec.a /tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib/libaec.a
-libtool: install: chmod 644 /tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib/libaec.a
-libtool: install: x86_64-conda-linux-gnu-ranlib /tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib/libaec.a
-libtool: install: /usr/bin/install -c .libs/libsz.a /tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib/libsz.a
-libtool: install: chmod 644 /tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib/libsz.a
-libtool: install: x86_64-conda-linux-gnu-ranlib /tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib/libsz.a
-libtool: finish: PATH="/home/vscode/miniforge3/envs/bioinfo/bin:/home/vscode/miniforge3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/vscode/.local/bin:/sbin" ldconfig -n /tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib
+make[2]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/src'
+make[3]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/src'
+ /usr/bin/mkdir -p '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libaec.la libsz.la '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib'
+libtool: install: /usr/bin/install -c .libs/libaec.lai /tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib/libaec.la
+libtool: install: /usr/bin/install -c .libs/libsz.lai /tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib/libsz.la
+libtool: install: /usr/bin/install -c .libs/libaec.a /tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib/libaec.a
+libtool: install: chmod 644 /tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib/libaec.a
+libtool: install: x86_64-conda-linux-gnu-ranlib /tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib/libaec.a
+libtool: install: /usr/bin/install -c .libs/libsz.a /tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib/libsz.a
+libtool: install: chmod 644 /tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib/libsz.a
+libtool: install: x86_64-conda-linux-gnu-ranlib /tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib/libsz.a
+libtool: finish: PATH="/home/vscode/miniforge3/envs/bioinfo/bin:/home/vscode/miniforge3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/vscode/.local/bin:/sbin" ldconfig -n /tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib
 ----------------------------------------------------------------------
 Libraries have been installed in:
-   /tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib
+   /tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib
 
 If you ever happen to want to link against installed libraries
 in a given directory, LIBDIR, you must either use libtool, and
@@ -2104,26 +2104,26 @@ flag during linking and do at least one of the following:
 See any operating system documentation about shared libraries for
 more information, such as the ld(1) and ld.so(8) manual pages.
 ----------------------------------------------------------------------
- /usr/bin/mkdir -p '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/bin'
-  /bin/bash ../libtool   --mode=install /usr/bin/install -c aec '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/bin'
-libtool: install: /usr/bin/install -c aec /tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/bin/aec
- /usr/bin/mkdir -p '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/include'
- /usr/bin/install -c -m 644 ../../src/libaec.h ../../src/szlib.h '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/include'
- /usr/bin/mkdir -p '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/share/man/man1'
- /usr/bin/install -c -m 644 ../../src/aec.1 '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/share/man/man1'
-make[3]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/src'
-make[2]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/src'
-make[2]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
-make[3]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
+ /usr/bin/mkdir -p '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/bin'
+  /bin/bash ../libtool   --mode=install /usr/bin/install -c aec '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/bin'
+libtool: install: /usr/bin/install -c aec /tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/bin/aec
+ /usr/bin/mkdir -p '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/include'
+ /usr/bin/install -c -m 644 ../../src/libaec.h ../../src/szlib.h '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/include'
+ /usr/bin/mkdir -p '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/share/man/man1'
+ /usr/bin/install -c -m 644 ../../src/aec.1 '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/share/man/man1'
+make[3]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/src'
+make[2]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/src'
+make[2]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
+make[3]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
 make[3]: Nothing to be done for 'install-exec-am'.
 make[3]: Nothing to be done for 'install-data-am'.
-make[3]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
-make[2]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
-make[1]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
+make[3]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
+make[2]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
+make[1]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build'
 cd hdf5; \
 ./configure --with-pic --enable-shared=no --enable-cxx --enable-hl \
 --enable-tests=no --enable-tools=no \
---with-szlib=/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip --with-zlib=yes \
+--with-szlib=/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip --with-zlib=yes \
 --enable-ros3-vfd \
 --enable-sharedlib-rpath \
 CC='x86_64-conda-linux-gnu-cc' CXX='x86_64-conda-linux-gnu-c++ -std=gnu++17' \
@@ -2160,7 +2160,7 @@ compiler 'x86_64-conda-linux-gnu-c++ -std=gnu++17' is GNU g++-15.2.0
 No match to get cc_version_info for x86_64-conda-linux-gnu-cc
 No match to get fc_version_info for 
 No match to get cxx_version_info for x86_64-conda-linux-gnu-c++ -std=gnu++17
-checking for config ./config/site-specific/host-codespaces-33c85d... no
+checking for config ./config/site-specific/host-codespaces-7f1bac... no
 checking for clang sanitizer checks... checking build mode... production
 checking for gcc... x86_64-conda-linux-gnu-cc
 checking whether the C compiler works... yes
@@ -2487,12 +2487,12 @@ config.status: executing .classes commands
 General Information:
 -------------------
                    HDF5 Version: 1.10.7
-                  Configured on: Mon Jun 15 12:33:18 UTC 2026
-                  Configured by: vscode@codespaces-33c85d
+                  Configured on: Wed Jun 17 00:10:23 UTC 2026
+                  Configured by: vscode@codespaces-7f1bac
                     Host system: x86_64-pc-linux-gnu
-              Uname information: Linux codespaces-33c85d 6.8.0-1052-azure #58~22.04.1-Ubuntu SMP Thu Mar 26 05:02:21 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+              Uname information: Linux codespaces-7f1bac 6.8.0-1052-azure #58~22.04.1-Ubuntu SMP Thu Mar 26 05:02:21 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
                        Byte sex: little-endian
-             Installation point: /tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/hdf5
+             Installation point: /tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/hdf5
 
 Compiling Options:
 ------------------
@@ -2508,7 +2508,7 @@ Linking Options:
   Statically Linked Executables: 
                         LDFLAGS: -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/vscode/miniforge3/envs/bioinfo/lib -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -L/home/vscode/miniforge3/envs/bioinfo/lib
                      H5_LDFLAGS: 
-                     AM_LDFLAGS:  -L/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib
+                     AM_LDFLAGS:  -L/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/lib
                 Extra libraries: -lcrypto -lcurl -lsz -laec -lz -ldl -lm 
                        Archiver: x86_64-conda-linux-gnu-ar
                        AR_FLAGS: cr
@@ -2520,7 +2520,7 @@ Languages:
                      C Compiler: /home/vscode/miniforge3/envs/bioinfo/bin/x86_64-conda-linux-gnu-cc
                        CPPFLAGS: -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib
                     H5_CPPFLAGS: -D_GNU_SOURCE -D_POSIX_C_SOURCE=200809L   -DNDEBUG -UH5_DEBUG_API
-                    AM_CPPFLAGS:  -I/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/include
+                    AM_CPPFLAGS:  -I/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/libaec-1.0.4/build/szip/include
                         C Flags: -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic
                      H5 C Flags:  -std=c99  -Wno-c++-compat -Wno-format-nonliteral -Wshadow -Wundef -Wwrite-strings -Wlarger-than=2560 -Wlogical-op -Wframe-larger-than=16384 -Wpacked-bitfield-compat -Wsync-nand -Wdouble-promotion -Wtrampolines -Wstack-usage=8192 -Wmaybe-uninitialized -Wdate-time -Warray-bounds=2 -Wc99-c11-compat -Wduplicated-cond -Whsa -Wnormalized -Wunused-const-variable -Walloca -Walloc-zero -Wduplicated-branches -Wimplicit-fallthrough=5 -Wrestrict -Wattribute-alias -Wshift-overflow=2 -Wattribute-alias=2 -Wmissing-profile -fstdarg-opt -s -Wno-aggregate-return -Wno-inline -Wno-missing-format-attribute -Wno-missing-noreturn -Wno-overlength-strings -Wno-jump-misses-init -Wno-suggest-attribute=const -Wno-suggest-attribute=noreturn -Wno-suggest-attribute=pure -Wno-suggest-attribute=format -Wno-suggest-attribute=cold -Wno-suggest-attribute=malloc -O3  -Werror=bad-function-cast -Werror=declaration-after-statement -Werror=implicit-function-declaration -Werror=missing-declarations -Werror=missing-prototypes -Werror=nested-externs -Werror=old-style-definition -Werror=packed -Werror=pointer-sign -Werror=pointer-to-int-cast -Werror=redundant-decls -Werror=strict-prototypes -Werror=switch -Wunused-function -Wformat -Werror=incompatible-pointer-types -Werror=shadow -Wcast-function-type -Wmaybe-uninitialized
                      AM C Flags: 
@@ -2567,14 +2567,14 @@ Parallel Filtered Dataset Writes: no
                 Use file locking: best-effort
        Strict file format checks: no
     Optimization instrumentation: no
-make[1]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5'
+make[1]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5'
 for d in src . c++ hl; do                                \
   if test $d != .; then                                        \
    (cd $d && make  lib) || exit 1;            \
   fi;                                                           \
 done
-make[2]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/src'
-make[3]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/src'
+make[2]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/src'
+make[3]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/src'
   CC       H5.lo
   CC       H5checksum.lo
   CC       H5dbg.lo
@@ -2886,14 +2886,14 @@ LD_LIBRARY_PATH="$LD_LIBRARY_PATH`echo -Wl,-O2 -Wl,--sort-common -Wl,--as-needed
   CC       H5FDros3.lo
   CC       H5FDs3comms.lo
   CCLD     libhdf5.la
-make[3]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/src'
-make[2]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/src'
-make[2]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/c++'
-make[3]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/c++'
+make[3]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/src'
+make[2]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/src'
+make[2]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/c++'
+make[3]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/c++'
 make[3]: Nothing to be done for 'build-lib'.
-make[3]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/c++'
-make[3]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/c++/src'
-make[4]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/c++/src'
+make[3]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/c++'
+make[3]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/c++/src'
+make[4]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/c++/src'
   CXX      H5Exception.lo
   CXX      H5IdComponent.lo
   CXX      H5DataSpace.lo
@@ -2926,15 +2926,15 @@ make[4]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/
   CXX      H5Group.lo
   CXX      H5File.lo
   CXXLD    libhdf5_cpp.la
-make[4]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/c++/src'
-make[3]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/c++/src'
-make[2]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/c++'
-make[2]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/hl'
-make[3]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/hl'
+make[4]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/c++/src'
+make[3]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/c++/src'
+make[2]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/c++'
+make[2]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/hl'
+make[3]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/hl'
 make[3]: Nothing to be done for 'build-lib'.
-make[3]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/hl'
-make[3]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/hl/src'
-make[4]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/hl/src'
+make[3]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/hl'
+make[3]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/hl/src'
+make[4]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/hl/src'
   CC       H5DO.lo
   CC       H5DS.lo
   CC       H5IM.lo
@@ -2945,21 +2945,21 @@ make[4]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/
   CC       H5TB.lo
   CC       H5LD.lo
   CCLD     libhdf5_hl.la
-make[4]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/hl/src'
-make[3]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/hl/src'
-make[3]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/hl/c++'
-make[4]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/hl/c++'
+make[4]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/hl/src'
+make[3]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/hl/src'
+make[3]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/hl/c++'
+make[4]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/hl/c++'
 make[4]: Nothing to be done for 'build-lib'.
-make[4]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/hl/c++'
-make[4]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/hl/c++/src'
-make[5]: Entering directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/hl/c++/src'
+make[4]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/hl/c++'
+make[4]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/hl/c++/src'
+make[5]: Entering directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/hl/c++/src'
   CXX      H5PacketTable.lo
   CXXLD    libhdf5_hl_cpp.la
-make[5]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/hl/c++/src'
-make[4]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/hl/c++/src'
-make[3]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/hl/c++'
-make[2]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5/hl'
-make[1]: Leaving directory '/tmp/RtmpVvwjSm/R.INSTALL1cf429393412/Rhdf5lib/src/hdf5'
+make[5]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/hl/c++/src'
+make[4]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/hl/c++/src'
+make[3]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/hl/c++'
+make[2]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5/hl'
+make[1]: Leaving directory '/tmp/RtmpW9wyBG/R.INSTALL15f1329425d0/Rhdf5lib/src/hdf5'
 mkdir -p "/home/vscode/miniforge3/envs/bioinfo/lib/R/library/00LOCK-Rhdf5lib/00new/Rhdf5lib/include"
 cp "hdf5/src"/*.h "/home/vscode/miniforge3/envs/bioinfo/lib/R/library/00LOCK-Rhdf5lib/00new/Rhdf5lib/include"
 cp "hdf5/c++/src"/*.h "/home/vscode/miniforge3/envs/bioinfo/lib/R/library/00LOCK-Rhdf5lib/00new/Rhdf5lib/include"
@@ -3147,37 +3147,37 @@ config.status: creating src/vbz/vbz/Makefile
 config.status: creating src/vbz/third_party/streamvbyte/Makefile
 config.status: creating src/Makevars
 make -C zstd
-make[1]: Entering directory '/tmp/RtmpCx7reo/R.INSTALL6f9240b2018e/rhdf5filters/src/zstd'
+make[1]: Entering directory '/tmp/RtmpHSjQcO/R.INSTALL613e75a2acaf/rhdf5filters/src/zstd'
 x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -shared H5Zzstd.c -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/library/Rhdf5lib/include" \
  -lzstd -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/vscode/miniforge3/envs/bioinfo/lib -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -L/home/vscode/miniforge3/envs/bioinfo/lib -o libH5Zzstd.so
-make[1]: Leaving directory '/tmp/RtmpCx7reo/R.INSTALL6f9240b2018e/rhdf5filters/src/zstd'
+make[1]: Leaving directory '/tmp/RtmpHSjQcO/R.INSTALL613e75a2acaf/rhdf5filters/src/zstd'
 make -C blosc
-make[1]: Entering directory '/tmp/RtmpCx7reo/R.INSTALL6f9240b2018e/rhdf5filters/src/blosc'
+make[1]: Entering directory '/tmp/RtmpHSjQcO/R.INSTALL613e75a2acaf/rhdf5filters/src/blosc'
 x86_64-conda-linux-gnu-c++ -std=gnu++17 -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -shared -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/library/Rhdf5lib/include" H5Zblosc.cpp \
 -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/vscode/miniforge3/envs/bioinfo/lib -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -L/home/vscode/miniforge3/envs/bioinfo/lib  -lblosc -lzstd -lz -o libH5Zblosc.so 
-make[1]: Leaving directory '/tmp/RtmpCx7reo/R.INSTALL6f9240b2018e/rhdf5filters/src/blosc'
+make[1]: Leaving directory '/tmp/RtmpHSjQcO/R.INSTALL613e75a2acaf/rhdf5filters/src/blosc'
 make -C bzip2
-make[1]: Entering directory '/tmp/RtmpCx7reo/R.INSTALL6f9240b2018e/rhdf5filters/src/bzip2'
+make[1]: Entering directory '/tmp/RtmpHSjQcO/R.INSTALL613e75a2acaf/rhdf5filters/src/bzip2'
 x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -shared H5Zbzip2.c -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/library/Rhdf5lib/include" \
  -lbz2 -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/vscode/miniforge3/envs/bioinfo/lib -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -L/home/vscode/miniforge3/envs/bioinfo/lib -o libH5Zbz2.so
-make[1]: Leaving directory '/tmp/RtmpCx7reo/R.INSTALL6f9240b2018e/rhdf5filters/src/bzip2'
+make[1]: Leaving directory '/tmp/RtmpHSjQcO/R.INSTALL613e75a2acaf/rhdf5filters/src/bzip2'
 make -C lzf
-make[1]: Entering directory '/tmp/RtmpCx7reo/R.INSTALL6f9240b2018e/rhdf5filters/src/lzf'
+make[1]: Entering directory '/tmp/RtmpHSjQcO/R.INSTALL613e75a2acaf/rhdf5filters/src/lzf'
 make -C lzf
-make[2]: Entering directory '/tmp/RtmpCx7reo/R.INSTALL6f9240b2018e/rhdf5filters/src/lzf/lzf'
+make[2]: Entering directory '/tmp/RtmpHSjQcO/R.INSTALL613e75a2acaf/rhdf5filters/src/lzf/lzf'
 x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/library/Rhdf5lib/include" -c lzf_c.c
 x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/library/Rhdf5lib/include" -c lzf_d.c
 rm -f liblzf.a
 x86_64-conda-linux-gnu-ar cq liblzf.a lzf_c.o lzf_d.o
 x86_64-conda-linux-gnu-ranlib liblzf.a
-make[2]: Leaving directory '/tmp/RtmpCx7reo/R.INSTALL6f9240b2018e/rhdf5filters/src/lzf/lzf'
+make[2]: Leaving directory '/tmp/RtmpHSjQcO/R.INSTALL613e75a2acaf/rhdf5filters/src/lzf/lzf'
 x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -shared H5Zlzf.c -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/library/Rhdf5lib/include" \
 -I./lzf/ ./lzf/liblzf.a -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/vscode/miniforge3/envs/bioinfo/lib -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -L/home/vscode/miniforge3/envs/bioinfo/lib -o libH5Zlzf.so
-make[1]: Leaving directory '/tmp/RtmpCx7reo/R.INSTALL6f9240b2018e/rhdf5filters/src/lzf'
+make[1]: Leaving directory '/tmp/RtmpHSjQcO/R.INSTALL613e75a2acaf/rhdf5filters/src/lzf'
 make -C vbz
-make[1]: Entering directory '/tmp/RtmpCx7reo/R.INSTALL6f9240b2018e/rhdf5filters/src/vbz'
+make[1]: Entering directory '/tmp/RtmpHSjQcO/R.INSTALL613e75a2acaf/rhdf5filters/src/vbz'
 make -C third_party/streamvbyte
-make[2]: Entering directory '/tmp/RtmpCx7reo/R.INSTALL6f9240b2018e/rhdf5filters/src/vbz/third_party/streamvbyte'
+make[2]: Entering directory '/tmp/RtmpHSjQcO/R.INSTALL613e75a2acaf/rhdf5filters/src/vbz/third_party/streamvbyte'
 x86_64-conda-linux-gnu-cc -std=gnu99 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -Iinclude -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/library/Rhdf5lib/include" -mavx  -c ./src/streamvbyte_decode.c
 x86_64-conda-linux-gnu-cc -std=gnu99 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -Iinclude -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/library/Rhdf5lib/include" -mavx  -c ./src/streamvbyte_encode.c
 x86_64-conda-linux-gnu-cc -std=gnu99 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -Iinclude -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/library/Rhdf5lib/include" -mavx  -c ./src/streamvbytedelta_decode.c
@@ -3188,19 +3188,19 @@ x86_64-conda-linux-gnu-cc -std=gnu99 -march=nocona -mtune=haswell -ftree-vectori
 rm -f libstreamvbyte.a
 x86_64-conda-linux-gnu-ar cq libstreamvbyte.a streamvbyte_decode.o streamvbyte_encode.o streamvbytedelta_decode.o streamvbytedelta_encode.o streamvbyte_0124_encode.o streamvbyte_0124_decode.o streamvbyte_zigzag.o
 x86_64-conda-linux-gnu-ranlib libstreamvbyte.a 
-make[2]: Leaving directory '/tmp/RtmpCx7reo/R.INSTALL6f9240b2018e/rhdf5filters/src/vbz/third_party/streamvbyte'
+make[2]: Leaving directory '/tmp/RtmpHSjQcO/R.INSTALL613e75a2acaf/rhdf5filters/src/vbz/third_party/streamvbyte'
 make -C vbz
-make[2]: Entering directory '/tmp/RtmpCx7reo/R.INSTALL6f9240b2018e/rhdf5filters/src/vbz/vbz'
+make[2]: Entering directory '/tmp/RtmpHSjQcO/R.INSTALL613e75a2acaf/rhdf5filters/src/vbz/vbz'
 x86_64-conda-linux-gnu-c++ -std=gnu++17 -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/library/Rhdf5lib/include" -I../third_party/streamvbyte/include/ -I../third_party/ -I../../zstd/ -mssse3 -c vbz.cpp -o vbz.o
 x86_64-conda-linux-gnu-c++ -std=gnu++17 -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/library/Rhdf5lib/include" -I../third_party/streamvbyte/include/ -I../third_party/ -I../../zstd/ -mssse3 -c v0/vbz_streamvbyte.cpp -o v0/vbz_streamvbyte.o
 x86_64-conda-linux-gnu-c++ -std=gnu++17 -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/library/Rhdf5lib/include" -I../third_party/streamvbyte/include/ -I../third_party/ -I../../zstd/ -mssse3 -c v1/vbz_streamvbyte.cpp -o v1/vbz_streamvbyte.o
-make[2]: Leaving directory '/tmp/RtmpCx7reo/R.INSTALL6f9240b2018e/rhdf5filters/src/vbz/vbz'
+make[2]: Leaving directory '/tmp/RtmpHSjQcO/R.INSTALL613e75a2acaf/rhdf5filters/src/vbz/vbz'
 rm -f libvbz.a
 x86_64-conda-linux-gnu-ar cq libvbz.a vbz/vbz.o vbz/v0/vbz_streamvbyte.o vbz/v1/vbz_streamvbyte.o
 x86_64-conda-linux-gnu-ranlib libvbz.a
 x86_64-conda-linux-gnu-c++ -std=gnu++17 -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/library/Rhdf5lib/include" -shared vbz_plugin.cpp \
 libvbz.a -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/vscode/miniforge3/envs/bioinfo/lib -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -L/home/vscode/miniforge3/envs/bioinfo/lib -lzstd third_party/streamvbyte/libstreamvbyte.a -o libH5Zvbz.so
-make[1]: Leaving directory '/tmp/RtmpCx7reo/R.INSTALL6f9240b2018e/rhdf5filters/src/vbz'
+make[1]: Leaving directory '/tmp/RtmpHSjQcO/R.INSTALL613e75a2acaf/rhdf5filters/src/vbz'
 mkdir -p "/home/vscode/miniforge3/envs/bioinfo/lib/R/library/00LOCK-rhdf5filters/00new/rhdf5filters/lib/"
 cp bzip2/libH5Zbz2.so blosc/libH5Zblosc.so lzf/libH5Zlzf.so zstd/libH5Zzstd.so vbz/libH5Zvbz.so "/home/vscode/miniforge3/envs/bioinfo/lib/R/library/00LOCK-rhdf5filters/00new/rhdf5filters/lib/"
 x86_64-conda-linux-gnu-cc -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/library/Rhdf5lib/include" -I'/home/vscode/miniforge3/envs/bioinfo/lib/R/library/Rhdf5lib/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix  -c rhdf5filters.c -o rhdf5filters.o
@@ -3890,54 +3890,6 @@ x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/vscode/miniforge3/envs/bioinfo/
 x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -DUSING_R -I. -Ivendor -Ivendor/cigraph/src -Ivendor/cigraph/include -Ivendor/cigraph/vendor -Ivendor/io/parsers  -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DHAVE_LIBXML -DNDEBUG -DIGRAPH_THREAD_LOCAL= -DPRPACK_IGRAPH_SUPPORT -DHAVE_GFORTRAN=1 -D_GNU_SOURCE=1 -I'/home/vscode/miniforge3/envs/bioinfo/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix   -c simpleraytracer.cpp -o simpleraytracer.o
 x86_64-conda-linux-gnu-cc -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -DUSING_R -I. -Ivendor -Ivendor/cigraph/src -Ivendor/cigraph/include -Ivendor/cigraph/vendor -Ivendor/io/parsers  -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DHAVE_LIBXML -DNDEBUG -DIGRAPH_THREAD_LOCAL= -DPRPACK_IGRAPH_SUPPORT -DHAVE_GFORTRAN=1 -D_GNU_SOURCE=1 -I'/home/vscode/miniforge3/envs/bioinfo/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix  -c vendor/cigraph/vendor/mini-gmp/mini-gmp.c -o vendor/cigraph/vendor/mini-gmp/mini-gmp.o
 x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/home/vscode/miniforge3/envs/bioinfo/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/vscode/miniforge3/envs/bioinfo/lib -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -L/home/vscode/miniforge3/envs/bioinfo/lib -o igraph.so vendor/arpack/dgetv0.o vendor/arpack/dlaqrb.o vendor/arpack/dmout.o vendor/arpack/dnaitr.o vendor/arpack/dnapps.o vendor/arpack/dnaup2.o vendor/arpack/dnaupd.o vendor/arpack/dnconv.o vendor/arpack/dneigh.o vendor/arpack/dneupd.o vendor/arpack/dngets.o vendor/arpack/dsaitr.o vendor/arpack/dsapps.o vendor/arpack/dsaup2.o vendor/arpack/dsaupd.o vendor/arpack/dsconv.o vendor/arpack/dseigt.o vendor/arpack/dsesrt.o vendor/arpack/dseupd.o vendor/arpack/dsgets.o vendor/arpack/dsortc.o vendor/arpack/dsortr.o vendor/arpack/dstatn.o vendor/arpack/dstats.o vendor/arpack/dstqrb.o vendor/arpack/dvout.o vendor/arpack/ivout.o vendor/arpack/second.o vendor/arpack/wrap.o vendor/cigraph/src/centrality/betweenness.o vendor/cigraph/src/centrality/centrality_other.o vendor/cigraph/src/centrality/centralization.o vendor/cigraph/src/centrality/closeness.o vendor/cigraph/src/centrality/coreness.o vendor/cigraph/src/centrality/eigenvector.o vendor/cigraph/src/centrality/hub_authority.o vendor/cigraph/src/centrality/pagerank.o vendor/cigraph/src/centrality/prpack.o vendor/cigraph/src/centrality/prpack/prpack_base_graph.o vendor/cigraph/src/centrality/prpack/prpack_igraph_graph.o vendor/cigraph/src/centrality/prpack/prpack_preprocessed_ge_graph.o vendor/cigraph/src/centrality/prpack/prpack_preprocessed_gs_graph.o vendor/cigraph/src/centrality/prpack/prpack_preprocessed_scc_graph.o vendor/cigraph/src/centrality/prpack/prpack_preprocessed_schur_graph.o vendor/cigraph/src/centrality/prpack/prpack_result.o vendor/cigraph/src/centrality/prpack/prpack_solver.o vendor/cigraph/src/centrality/prpack/prpack_utils.o vendor/cigraph/src/centrality/truss.o vendor/cigraph/src/cliques/cliquer/cliquer.o vendor/cigraph/src/cliques/cliquer/cliquer_graph.o vendor/cigraph/src/cliques/cliquer/reorder.o vendor/cigraph/src/cliques/cliquer_wrapper.o vendor/cigraph/src/cliques/cliques.o vendor/cigraph/src/cliques/glet.o vendor/cigraph/src/cliques/maximal_cliques.o vendor/cigraph/src/community/community_misc.o vendor/cigraph/src/community/edge_betweenness.o vendor/cigraph/src/community/fast_modularity.o vendor/cigraph/src/community/fluid.o vendor/cigraph/src/community/infomap/infomap.o vendor/cigraph/src/community/infomap/infomap_FlowGraph.o vendor/cigraph/src/community/infomap/infomap_Greedy.o vendor/cigraph/src/community/label_propagation.o vendor/cigraph/src/community/leading_eigenvector.o vendor/cigraph/src/community/leiden.o vendor/cigraph/src/community/louvain.o vendor/cigraph/src/community/modularity.o vendor/cigraph/src/community/optimal_modularity.o vendor/cigraph/src/community/spinglass/NetDataTypes.o vendor/cigraph/src/community/spinglass/NetRoutines.o vendor/cigraph/src/community/spinglass/clustertool.o vendor/cigraph/src/community/spinglass/pottsmodel_2.o vendor/cigraph/src/community/voronoi.o vendor/cigraph/src/community/walktrap/walktrap.o vendor/cigraph/src/community/walktrap/walktrap_communities.o vendor/cigraph/src/community/walktrap/walktrap_graph.o vendor/cigraph/src/community/walktrap/walktrap_heap.o vendor/cigraph/src/connectivity/cohesive_blocks.o vendor/cigraph/src/connectivity/components.o vendor/cigraph/src/connectivity/percolation.o vendor/cigraph/src/connectivity/reachability.o vendor/cigraph/src/connectivity/separators.o vendor/cigraph/src/constructors/adjacency.o vendor/cigraph/src/constructors/atlas.o vendor/cigraph/src/constructors/basic_constructors.o vendor/cigraph/src/constructors/circulant.o vendor/cigraph/src/constructors/de_bruijn.o vendor/cigraph/src/constructors/famous.o vendor/cigraph/src/constructors/full.o vendor/cigraph/src/constructors/generalized_petersen.o vendor/cigraph/src/constructors/kautz.o vendor/cigraph/src/constructors/lattices.o vendor/cigraph/src/constructors/lcf.o vendor/cigraph/src/constructors/linegraph.o vendor/cigraph/src/constructors/mycielskian.o vendor/cigraph/src/constructors/prufer.o vendor/cigraph/src/constructors/regular.o vendor/cigraph/src/constructors/trees.o vendor/cigraph/src/core/array.o vendor/cigraph/src/core/bitset.o vendor/cigraph/src/core/bitset_list.o vendor/cigraph/src/core/buckets.o vendor/cigraph/src/core/cutheap.o vendor/cigraph/src/core/dqueue.o vendor/cigraph/src/core/error.o vendor/cigraph/src/core/estack.o vendor/cigraph/src/core/fixed_vectorlist.o vendor/cigraph/src/core/genheap.o vendor/cigraph/src/core/grid.o vendor/cigraph/src/core/heap.o vendor/cigraph/src/core/indheap.o vendor/cigraph/src/core/interruption.o vendor/cigraph/src/core/marked_queue.o vendor/cigraph/src/core/matrix.o vendor/cigraph/src/core/matrix_list.o vendor/cigraph/src/core/memory.o vendor/cigraph/src/core/printing.o vendor/cigraph/src/core/progress.o vendor/cigraph/src/core/psumtree.o vendor/cigraph/src/core/set.o vendor/cigraph/src/core/sparsemat.o vendor/cigraph/src/core/stack.o vendor/cigraph/src/core/statusbar.o vendor/cigraph/src/core/strvector.o vendor/cigraph/src/core/trie.o vendor/cigraph/src/core/vector.o vendor/cigraph/src/core/vector_list.o vendor/cigraph/src/core/vector_ptr.o vendor/cigraph/src/cycles/simple_cycles.o vendor/cigraph/src/flow/flow.o vendor/cigraph/src/flow/flow_conversion.o vendor/cigraph/src/flow/st-cuts.o vendor/cigraph/src/games/barabasi.o vendor/cigraph/src/games/callaway_traits.o vendor/cigraph/src/games/chung_lu.o vendor/cigraph/src/games/citations.o vendor/cigraph/src/games/correlated.o vendor/cigraph/src/games/degree_sequence.o vendor/cigraph/src/games/degree_sequence_vl/gengraph_degree_sequence.o vendor/cigraph/src/games/degree_sequence_vl/gengraph_graph_molloy_hash.o vendor/cigraph/src/games/degree_sequence_vl/gengraph_graph_molloy_optimized.o vendor/cigraph/src/games/degree_sequence_vl/gengraph_mr-connected.o vendor/cigraph/src/games/degree_sequence_vl/gengraph_random.o vendor/cigraph/src/games/dotproduct.o vendor/cigraph/src/games/erdos_renyi.o vendor/cigraph/src/games/establishment.o vendor/cigraph/src/games/forestfire.o vendor/cigraph/src/games/grg.o vendor/cigraph/src/games/growing_random.o vendor/cigraph/src/games/islands.o vendor/cigraph/src/games/k_regular.o vendor/cigraph/src/games/preference.o vendor/cigraph/src/games/recent_degree.o vendor/cigraph/src/games/sbm.o vendor/cigraph/src/games/static_fitness.o vendor/cigraph/src/games/tree.o vendor/cigraph/src/games/watts_strogatz.o vendor/cigraph/src/graph/adjlist.o vendor/cigraph/src/graph/attributes.o vendor/cigraph/src/graph/basic_query.o vendor/cigraph/src/graph/caching.o vendor/cigraph/src/graph/cattributes.o vendor/cigraph/src/graph/graph_list.o vendor/cigraph/src/graph/iterators.o vendor/cigraph/src/graph/type_common.o vendor/cigraph/src/graph/type_indexededgelist.o vendor/cigraph/src/graph/visitors.o vendor/cigraph/src/hrg/hrg.o vendor/cigraph/src/hrg/hrg_types.o vendor/cigraph/src/internal/glpk_support.o vendor/cigraph/src/internal/hacks.o vendor/cigraph/src/internal/lsap.o vendor/cigraph/src/internal/qsort.o vendor/cigraph/src/internal/qsort_r.o vendor/cigraph/src/internal/utils.o vendor/cigraph/src/internal/zeroin.o vendor/cigraph/src/io/dimacs.o vendor/cigraph/src/io/dl.o vendor/cigraph/src/io/dot.o vendor/cigraph/src/io/edgelist.o vendor/cigraph/src/io/gml-tree.o vendor/cigraph/src/io/gml.o vendor/cigraph/src/io/graphdb.o vendor/cigraph/src/io/graphml.o vendor/cigraph/src/io/leda.o vendor/cigraph/src/io/lgl.o vendor/cigraph/src/io/ncol.o vendor/cigraph/src/io/pajek.o vendor/cigraph/src/io/parse_utils.o vendor/cigraph/src/isomorphism/bliss.o vendor/cigraph/src/isomorphism/bliss/defs.o vendor/cigraph/src/isomorphism/bliss/graph.o vendor/cigraph/src/isomorphism/bliss/heap.o vendor/cigraph/src/isomorphism/bliss/orbit.o vendor/cigraph/src/isomorphism/bliss/partition.o vendor/cigraph/src/isomorphism/bliss/uintseqhash.o vendor/cigraph/src/isomorphism/bliss/utils.o vendor/cigraph/src/isomorphism/isoclasses.o vendor/cigraph/src/isomorphism/isomorphism_misc.o vendor/cigraph/src/isomorphism/lad.o vendor/cigraph/src/isomorphism/queries.o vendor/cigraph/src/isomorphism/vf2.o vendor/cigraph/src/layout/align.o vendor/cigraph/src/layout/circular.o vendor/cigraph/src/layout/davidson_harel.o vendor/cigraph/src/layout/drl/DensityGrid.o vendor/cigraph/src/layout/drl/DensityGrid_3d.o vendor/cigraph/src/layout/drl/drl_graph.o vendor/cigraph/src/layout/drl/drl_graph_3d.o vendor/cigraph/src/layout/drl/drl_layout.o vendor/cigraph/src/layout/drl/drl_layout_3d.o vendor/cigraph/src/layout/drl/drl_parse.o vendor/cigraph/src/layout/fruchterman_reingold.o vendor/cigraph/src/layout/gem.o vendor/cigraph/src/layout/graphopt.o vendor/cigraph/src/layout/kamada_kawai.o vendor/cigraph/src/layout/large_graph.o vendor/cigraph/src/layout/layout_bipartite.o vendor/cigraph/src/layout/layout_grid.o vendor/cigraph/src/layout/layout_random.o vendor/cigraph/src/layout/mds.o vendor/cigraph/src/layout/merge_dla.o vendor/cigraph/src/layout/merge_grid.o vendor/cigraph/src/layout/reingold_tilford.o vendor/cigraph/src/layout/sugiyama.o vendor/cigraph/src/layout/umap.o vendor/cigraph/src/linalg/arpack.o vendor/cigraph/src/linalg/blas.o vendor/cigraph/src/linalg/eigen.o vendor/cigraph/src/linalg/lapack.o vendor/cigraph/src/math/complex.o vendor/cigraph/src/math/safe_intop.o vendor/cigraph/src/math/utils.o vendor/cigraph/src/misc/bipartite.o vendor/cigraph/src/misc/chordality.o vendor/cigraph/src/misc/cocitation.o vendor/cigraph/src/misc/coloring.o vendor/cigraph/src/misc/conversion.o vendor/cigraph/src/misc/cycle_bases.o vendor/cigraph/src/misc/degree_sequence.o vendor/cigraph/src/misc/embedding.o vendor/cigraph/src/misc/feedback_arc_set.o vendor/cigraph/src/misc/graphicality.o vendor/cigraph/src/misc/matching.o vendor/cigraph/src/misc/microscopic_update.o vendor/cigraph/src/misc/mixing.o vendor/cigraph/src/misc/motifs.o vendor/cigraph/src/misc/order_cycle.o vendor/cigraph/src/misc/other.o vendor/cigraph/src/misc/power_law_fit.o vendor/cigraph/src/misc/scan.o vendor/cigraph/src/misc/sir.o vendor/cigraph/src/misc/spanning_trees.o vendor/cigraph/src/operators/add_edge.o vendor/cigraph/src/operators/complementer.o vendor/cigraph/src/operators/compose.o vendor/cigraph/src/operators/connect_neighborhood.o vendor/cigraph/src/operators/contract.o vendor/cigraph/src/operators/difference.o vendor/cigraph/src/operators/disjoint_union.o vendor/cigraph/src/operators/intersection.o vendor/cigraph/src/operators/join.o vendor/cigraph/src/operators/misc_internal.o vendor/cigraph/src/operators/permute.o vendor/cigraph/src/operators/products.o vendor/cigraph/src/operators/reverse.o vendor/cigraph/src/operators/rewire.o vendor/cigraph/src/operators/rewire_edges.o vendor/cigraph/src/operators/simplify.o vendor/cigraph/src/operators/subgraph.o vendor/cigraph/src/operators/union.o vendor/cigraph/src/paths/all_shortest_paths.o vendor/cigraph/src/paths/astar.o vendor/cigraph/src/paths/bellman_ford.o vendor/cigraph/src/paths/dijkstra.o vendor/cigraph/src/paths/distances.o vendor/cigraph/src/paths/eulerian.o vendor/cigraph/src/paths/floyd_warshall.o vendor/cigraph/src/paths/histogram.o vendor/cigraph/src/paths/johnson.o vendor/cigraph/src/paths/random_walk.o vendor/cigraph/src/paths/shortest_paths.o vendor/cigraph/src/paths/simple_paths.o vendor/cigraph/src/paths/sparsifier.o vendor/cigraph/src/paths/unweighted.o vendor/cigraph/src/paths/voronoi.o vendor/cigraph/src/paths/widest_paths.o vendor/cigraph/src/properties/basic_properties.o vendor/cigraph/src/properties/complete.o vendor/cigraph/src/properties/constraint.o vendor/cigraph/src/properties/convergence_degree.o vendor/cigraph/src/properties/dag.o vendor/cigraph/src/properties/degrees.o vendor/cigraph/src/properties/ecc.o vendor/cigraph/src/properties/girth.o vendor/cigraph/src/properties/loops.o vendor/cigraph/src/properties/multiplicity.o vendor/cigraph/src/properties/neighborhood.o vendor/cigraph/src/properties/perfect.o vendor/cigraph/src/properties/rich_club.o vendor/cigraph/src/properties/spectral.o vendor/cigraph/src/properties/trees.o vendor/cigraph/src/properties/triangles.o vendor/cigraph/src/random/random.o vendor/cigraph/src/random/rng_glibc2.o vendor/cigraph/src/random/rng_mt19937.o vendor/cigraph/src/random/rng_pcg32.o vendor/cigraph/src/random/rng_pcg64.o vendor/cigraph/src/version.o vendor/cigraph/vendor/cs/cs_add.o vendor/cigraph/vendor/cs/cs_amd.o vendor/cigraph/vendor/cs/cs_chol.o vendor/cigraph/vendor/cs/cs_cholsol.o vendor/cigraph/vendor/cs/cs_compress.o vendor/cigraph/vendor/cs/cs_counts.o vendor/cigraph/vendor/cs/cs_cumsum.o vendor/cigraph/vendor/cs/cs_dfs.o vendor/cigraph/vendor/cs/cs_dmperm.o vendor/cigraph/vendor/cs/cs_droptol.o vendor/cigraph/vendor/cs/cs_dropzeros.o vendor/cigraph/vendor/cs/cs_dupl.o vendor/cigraph/vendor/cs/cs_entry.o vendor/cigraph/vendor/cs/cs_ereach.o vendor/cigraph/vendor/cs/cs_etree.o vendor/cigraph/vendor/cs/cs_fkeep.o vendor/cigraph/vendor/cs/cs_gaxpy.o vendor/cigraph/vendor/cs/cs_happly.o vendor/cigraph/vendor/cs/cs_house.o vendor/cigraph/vendor/cs/cs_ipvec.o vendor/cigraph/vendor/cs/cs_leaf.o vendor/cigraph/vendor/cs/cs_load.o vendor/cigraph/vendor/cs/cs_lsolve.o vendor/cigraph/vendor/cs/cs_ltsolve.o vendor/cigraph/vendor/cs/cs_lu.o vendor/cigraph/vendor/cs/cs_lusol.o vendor/cigraph/vendor/cs/cs_malloc.o vendor/cigraph/vendor/cs/cs_maxtrans.o vendor/cigraph/vendor/cs/cs_multiply.o vendor/cigraph/vendor/cs/cs_norm.o vendor/cigraph/vendor/cs/cs_permute.o vendor/cigraph/vendor/cs/cs_pinv.o vendor/cigraph/vendor/cs/cs_post.o vendor/cigraph/vendor/cs/cs_print.o vendor/cigraph/vendor/cs/cs_pvec.o vendor/cigraph/vendor/cs/cs_qr.o vendor/cigraph/vendor/cs/cs_qrsol.o vendor/cigraph/vendor/cs/cs_randperm.o vendor/cigraph/vendor/cs/cs_reach.o vendor/cigraph/vendor/cs/cs_scatter.o vendor/cigraph/vendor/cs/cs_scc.o vendor/cigraph/vendor/cs/cs_schol.o vendor/cigraph/vendor/cs/cs_spsolve.o vendor/cigraph/vendor/cs/cs_sqr.o vendor/cigraph/vendor/cs/cs_symperm.o vendor/cigraph/vendor/cs/cs_tdfs.o vendor/cigraph/vendor/cs/cs_transpose.o vendor/cigraph/vendor/cs/cs_updown.o vendor/cigraph/vendor/cs/cs_usolve.o vendor/cigraph/vendor/cs/cs_util.o vendor/cigraph/vendor/cs/cs_utsolve.o vendor/cigraph/vendor/pcg/pcg-advance-128.o vendor/cigraph/vendor/pcg/pcg-advance-64.o vendor/cigraph/vendor/pcg/pcg-output-128.o vendor/cigraph/vendor/pcg/pcg-output-32.o vendor/cigraph/vendor/pcg/pcg-output-64.o vendor/cigraph/vendor/pcg/pcg-rngs-128.o vendor/cigraph/vendor/pcg/pcg-rngs-64.o vendor/cigraph/vendor/plfit/gss.o vendor/cigraph/vendor/plfit/hzeta.o vendor/cigraph/vendor/plfit/kolmogorov.o vendor/cigraph/vendor/plfit/lbfgs.o vendor/cigraph/vendor/plfit/mt.o vendor/cigraph/vendor/plfit/options.o vendor/cigraph/vendor/plfit/plfit.o vendor/cigraph/vendor/plfit/plfit_error.o vendor/cigraph/vendor/plfit/rbinom.o vendor/cigraph/vendor/plfit/sampling.o vendor/io/dl-lexer.o vendor/io/dl-parser.o vendor/io/gml-lexer.o vendor/io/gml-parser.o vendor/io/lgl-lexer.o vendor/io/lgl-parser.o vendor/io/ncol-lexer.o vendor/io/ncol-parser.o vendor/io/pajek-lexer.o vendor/io/pajek-parser.o vendor/simpleraytracer/Color.o vendor/simpleraytracer/Light.o vendor/simpleraytracer/Point.o vendor/simpleraytracer/Ray.o vendor/simpleraytracer/RayTracer.o vendor/simpleraytracer/RayVector.o vendor/simpleraytracer/Shape.o vendor/simpleraytracer/Sphere.o vendor/simpleraytracer/Triangle.o vendor/simpleraytracer/unit_limiter.o vendor/uuid/clear.o vendor/uuid/compare.o vendor/uuid/copy.o vendor/uuid/gen_uuid.o vendor/uuid/isnull.o vendor/uuid/pack.o vendor/uuid/parse.o vendor/uuid/unpack.o vendor/uuid/unparse.o rcallback.o rinterface.o rinterface_extra.o rrandom.o test_error_with_source.o uuid.o cpp11.o cpprinterface.o init.o simpleraytracer.o vendor/cigraph/vendor/mini-gmp/mini-gmp.o -L/home/vscode/miniforge3/envs/bioinfo/lib -lxml2 -L/home/vscode/miniforge3/envs/bioinfo/lib -lz -L/home/vscode/miniforge3/envs/bioinfo/lib -llzma -L/home/vscode/miniforge3/envs/bioinfo/lib -licui18n -licuuc -licudata -L/home/vscode/miniforge3/envs/bioinfo/lib -liconv -lm -ldl -lglpk -llapack -lblas -lgfortran -lm -lquadmath -L/home/vscode/miniforge3/envs/bioinfo/lib/R/lib -lR
-Testing compiler OpenSSL configuration using PKG_CFLAGS=
-** Using PKG_CONFIG_PATH=:/tmp/RtmpK65aIT/R.INSTALL985059abba71/s2/tools/pkgconfig
-** Building abseil-cpp using cmake
-GNU Make 4.4.1
-Built for x86_64-conda-linux-gnu
-Copyright (C) 1988-2023 Free Software Foundation, Inc.
-License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
-This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.
-Using MAKE=make 
-cmake not found
-** CMake build of Abseil failed
-** Abseil can be installed with:
-** - apt-get install libabsl-dev
-** - dnf install abseil-cpp-devel
-** - brew install abseil
-** If a system install of Abseil is not possible, cmake is required to build
-** the internal vendored copy.
-Using PKG_CFLAGS=-I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/include/fribidi
-Using PKG_LIBS=-lfreetype -lharfbuzz -lfribidi -lpng
---------------------------- [ANTICONF] --------------------------------
-Configuration failed to find the harfbuzz freetype2 fribidi library. Try installing:
- * deb: libharfbuzz-dev libfribidi-dev (Debian, Ubuntu, etc)
- * rpm: harfbuzz-devel fribidi-devel (Fedora, EPEL)
- * apk: harfbuzz-dev fribidi-dev (Alpine)
- * brew: harfbuzz fribidi (OSX)
-If harfbuzz freetype2 fribidi is already installed, check that 'pkg-config' is in your
-PATH and PKG_CONFIG_PATH contains a harfbuzz freetype2 fribidi.pc file. If pkg-config
-is unavailable you can set INCLUDE_DIR and LIB_DIR manually via:
-R CMD INSTALL --configure-vars='INCLUDE_DIR=... LIB_DIR=...'
--------------------------- [ERROR MESSAGE] ---------------------------
-<stdin>:1:10: fatal error: hb-ft.h: No such file or directory
-compilation terminated.
---------------------------------------------------------------------
-Found pkg-config cflags and libs!
-Using PKG_CFLAGS=-I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include
-Using PKG_LIBS=-L/home/vscode/miniforge3/envs/bioinfo/lib -lxml2 -L/home/vscode/miniforge3/envs/bioinfo/lib -lz -L/home/vscode/miniforge3/envs/bioinfo/lib -llzma -L/home/vscode/miniforge3/envs/bioinfo/lib -licui18n -licuuc -licudata -L/home/vscode/miniforge3/envs/bioinfo/lib -liconv -lm -ldl
-x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix   -c connection.cpp -o connection.o
-x86_64-conda-linux-gnu-cc -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix  -c init.c -o init.o
-x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix   -c xml2_doc.cpp -o xml2_doc.o
-x86_64-conda-linux-gnu-cc -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix  -c xml2_init.c -o xml2_init.o
-x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix   -c xml2_namespace.cpp -o xml2_namespace.o
-x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix   -c xml2_node.cpp -o xml2_node.o
-x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix   -c xml2_output.cpp -o xml2_output.o
-x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix   -c xml2_schema.cpp -o xml2_schema.o
-x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix   -c xml2_url.cpp -o xml2_url.o
-x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix   -c xml2_xpath.cpp -o xml2_xpath.o
-x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/home/vscode/miniforge3/envs/bioinfo/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/vscode/miniforge3/envs/bioinfo/lib -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -L/home/vscode/miniforge3/envs/bioinfo/lib -o xml2.so connection.o init.o xml2_doc.o xml2_init.o xml2_namespace.o xml2_node.o xml2_output.o xml2_schema.o xml2_url.o xml2_xpath.o -L/home/vscode/miniforge3/envs/bioinfo/lib -lxml2 -L/home/vscode/miniforge3/envs/bioinfo/lib -lz -L/home/vscode/miniforge3/envs/bioinfo/lib -llzma -L/home/vscode/miniforge3/envs/bioinfo/lib -licui18n -licuuc -licudata -L/home/vscode/miniforge3/envs/bioinfo/lib -liconv -lm -ldl -L/home/vscode/miniforge3/envs/bioinfo/lib/R/lib -lR
 configure: CC: x86_64-conda-linux-gnu-cc
 configure: CXX: x86_64-conda-linux-gnu-c++ -std=gnu++17
 checking for gdal-config... /home/vscode/miniforge3/envs/bioinfo/bin/gdal-config
@@ -4011,6 +3963,36 @@ in method for ‘coerce’ with signature ‘"sfc","Spatial"’: no definition f
 in method for ‘coerce’ with signature ‘"XY","Spatial"’: no definition for class “Spatial”
 in method for ‘coerce’ with signature ‘"crs","CRS"’: no definition for class “CRS”
 in method for ‘coerce’ with signature ‘"sgbp","sparseMatrix"’: no definition for class “sparseMatrix”
+Using PKG_CFLAGS=-I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/include/fribidi
+Using PKG_LIBS=-lfreetype -lharfbuzz -lfribidi -lpng
+--------------------------- [ANTICONF] --------------------------------
+Configuration failed to find the harfbuzz freetype2 fribidi library. Try installing:
+ * deb: libharfbuzz-dev libfribidi-dev (Debian, Ubuntu, etc)
+ * rpm: harfbuzz-devel fribidi-devel (Fedora, EPEL)
+ * apk: harfbuzz-dev fribidi-dev (Alpine)
+ * brew: harfbuzz fribidi (OSX)
+If harfbuzz freetype2 fribidi is already installed, check that 'pkg-config' is in your
+PATH and PKG_CONFIG_PATH contains a harfbuzz freetype2 fribidi.pc file. If pkg-config
+is unavailable you can set INCLUDE_DIR and LIB_DIR manually via:
+R CMD INSTALL --configure-vars='INCLUDE_DIR=... LIB_DIR=...'
+-------------------------- [ERROR MESSAGE] ---------------------------
+<stdin>:1:10: fatal error: hb-ft.h: No such file or directory
+compilation terminated.
+--------------------------------------------------------------------
+Found pkg-config cflags and libs!
+Using PKG_CFLAGS=-I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include
+Using PKG_LIBS=-L/home/vscode/miniforge3/envs/bioinfo/lib -lxml2 -L/home/vscode/miniforge3/envs/bioinfo/lib -lz -L/home/vscode/miniforge3/envs/bioinfo/lib -llzma -L/home/vscode/miniforge3/envs/bioinfo/lib -licui18n -licuuc -licudata -L/home/vscode/miniforge3/envs/bioinfo/lib -liconv -lm -ldl
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix   -c connection.cpp -o connection.o
+x86_64-conda-linux-gnu-cc -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix  -c init.c -o init.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix   -c xml2_doc.cpp -o xml2_doc.o
+x86_64-conda-linux-gnu-cc -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix  -c xml2_init.c -o xml2_init.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix   -c xml2_namespace.cpp -o xml2_namespace.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix   -c xml2_node.cpp -o xml2_node.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix   -c xml2_output.cpp -o xml2_output.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix   -c xml2_schema.cpp -o xml2_schema.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix   -c xml2_url.cpp -o xml2_url.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG -I../inst/include -I/home/vscode/miniforge3/envs/bioinfo/include/libxml2 -I/home/vscode/miniforge3/envs/bioinfo/include -DUCHAR_TYPE=wchar_t -DU_SHOW_CPLUSPLUS_API=0 -DSTRICT_R_HEADERS -DR_NO_REMAP  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix   -c xml2_xpath.cpp -o xml2_xpath.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/home/vscode/miniforge3/envs/bioinfo/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/vscode/miniforge3/envs/bioinfo/lib -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib -L/home/vscode/miniforge3/envs/bioinfo/lib -o xml2.so connection.o init.o xml2_doc.o xml2_init.o xml2_namespace.o xml2_node.o xml2_output.o xml2_schema.o xml2_url.o xml2_xpath.o -L/home/vscode/miniforge3/envs/bioinfo/lib -lxml2 -L/home/vscode/miniforge3/envs/bioinfo/lib -lz -L/home/vscode/miniforge3/envs/bioinfo/lib -llzma -L/home/vscode/miniforge3/envs/bioinfo/lib -licui18n -licuuc -licudata -L/home/vscode/miniforge3/envs/bioinfo/lib -liconv -lm -ldl -L/home/vscode/miniforge3/envs/bioinfo/lib/R/lib -lR
 x86_64-conda-linux-gnu-cc -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix  -c mst.c -o mst.o
 x86_64-conda-linux-gnu-cc -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix  -c pegas.c -o pegas.o
 x86_64-conda-linux-gnu-cc -I"/home/vscode/miniforge3/envs/bioinfo/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/vscode/miniforge3/envs/bioinfo/include -I/home/vscode/miniforge3/envs/bioinfo/include -Wl,-rpath-link,/home/vscode/miniforge3/envs/bioinfo/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/vscode/miniforge3/envs/bioinfo/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1728291269090/work=/usr/local/src/conda/r-base-4.4.1 -fdebug-prefix-map=/home/vscode/miniforge3/envs/bioinfo=/usr/local/src/conda-prefix  -c readVCFbin.c -o readVCFbin.o
