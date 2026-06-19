@@ -15,7 +15,7 @@ dependencies:
   - prokka
   - bwa-mem2
   - bowtie2
-  - samtools
+  - samtools=1.21
   - bcftools
   - stacks
   - vcftools
